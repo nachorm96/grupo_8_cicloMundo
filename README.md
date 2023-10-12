@@ -17,9 +17,13 @@ Somos un e-commerce enfocado en la venta de bicicletas, accesorios e indumentari
 ## Paginas de referencia
 
 [BAIKING](https://baiking.com.ar/): Carrusel y navegabilidad.
+
 [BICI PERETTI](https://biciperetti.com.ar/): Efectos a replicar con los backgrounds y colores.
+
 [TIENDA BIKE](https://www.tiendabike.com.ar/): Simple y completa, podes scrollear y ver todos los productos que ofrece.
+
 [NEWS PORT BIKES](https://www.newsportbikes.com.ar/): La mas completa con un css que marca diferencia de las demas. Gama de colores.
+
 [PALACIO DEL RODADO](https://www.elpalaciodelrodado.com/): Sencillez en el carrito y pagina en general.
 
 ### JIRA
