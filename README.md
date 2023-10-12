@@ -22,7 +22,7 @@ Somos un e-commerce enfocado en la venta de bicicletas, accesorios e indumentari
 
 [TIENDA BIKE](https://www.tiendabike.com.ar/): Simple y completa, podes scrollear y ver todos los productos que ofrece.
 
-[NEWS PORT BIKES](https://www.newsportbikes.com.ar/): La mas completa con un css que marca diferencia de las demas. Gama de colores.
+[NEW SPORT BIKES](https://www.newsportbikes.com.ar/): La mas completa con un css que marca diferencia de las demas. Gama de colores.
 
 [PALACIO DEL RODADO](https://www.elpalaciodelrodado.com/): Sencillez en el carrito y pagina en general.
 
