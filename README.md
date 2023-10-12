@@ -1,10 +1,27 @@
-# GP8 
+# CICLOMUNDO - GRUPO 8
+![Logo](/extras/logo/Posible%20logo%20gp82.jpeg)
+## TEMATICA
+Somos un e-commerce enfocado en la venta de bicicletas, accesorios e indumentaria deportiva. Comercializando productos de distintas variedades enfocados en el deporte sobre dos ruedas el cual es apto para toda la familia, sin rango de edades.
 
-### Integrantes
+---
 
-- Bettina Oña, 25 años, estudiante de desarrollo full stack.
-- Fernando Villanueva, 30 años, estudiante de desarrollo full stack.
-- Damian Ebel, 31 años, estudiante de desarrollo full stack, papá de Thomi (12 años).
-- Carlos Garcia, 26 años, estudiante de desarrollo full stack.
-- Ignacio Rubio Montes, 27 años, estudiante de desarrollo full stack, papá.
+## Integrantes
 
+- Bettina Oña, 25 años, estudiante de desarrollo full stack.//[GITHUB](https://github.com/Bettina98)
+- Fernando Villanueva, 30 años, estudiante de desarrollo full stack.//[GITHUB](https://github.com/FerVillanueva06)
+- Carlos Garcia, 26 años, estudiante de desarrollo full stack.//[GITHUB](https://github.com/Carlos07NG)
+- Ignacio Rubio Montes, 27 años, estudiante de desarrollo full stack, papá.//[GITHUB](https://github.com/nachorm96)
+
+---
+
+## Paginas de referencia
+
+[BAIKING](https://baiking.com.ar/): Carrusel y navegabilidad.
+[BICI PERETTI](https://biciperetti.com.ar/): Efectos a replicar con los backgrounds y colores.
+[TIENDA BIKE](https://www.tiendabike.com.ar/): Simple y completa, podes scrollear y ver todos los productos que ofrece.
+[NEWS PORT BIKES](https://www.newsportbikes.com.ar/): La mas completa con un css que marca diferencia de las demas. Gama de colores.
+[PALACIO DEL RODADO](https://www.elpalaciodelrodado.com/): Sencillez en el carrito y pagina en general.
+
+### JIRA
+
+[TABLERO DE TRABAJO](https://comision22formar.atlassian.net/jira/software/projects/PIGFC/boards/3)
