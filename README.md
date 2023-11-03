@@ -8,7 +8,6 @@ Somos un e-commerce enfocado en la venta de bicicletas, accesorios e indumentari
 ## Integrantes
 
 - Bettina Oña, 25 años, estudiante de desarrollo full stack.//[GITHUB](https://github.com/Bettina98)
-- Fernando Villanueva, 30 años, estudiante de desarrollo full stack.//[GITHUB](https://github.com/FerVillanueva06)
 - Carlos Garcia, 26 años, estudiante de desarrollo full stack.//[GITHUB](https://github.com/Carlos07NG)
 - Ignacio Rubio Montes, 27 años, Técnico Químico y estudiante de desarrollo full stack, papá.//[GITHUB](https://github.com/nachorm96)
 
