@@ -28,4 +28,4 @@ Somos un e-commerce enfocado en la venta de bicicletas, accesorios e indumentari
 
 ### JIRA
 
-[TABLERO DE TRABAJO](https://comision22formar.atlassian.net/jira/software/projects/PIGFC/boards/3)
+[TABLERO DE TRABAJO](https://sprintsgrupo8.atlassian.net/jira/software/projects/SPRIN/boards/1)
