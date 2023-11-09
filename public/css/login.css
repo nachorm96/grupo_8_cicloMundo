@@ -1,0 +1,72 @@
+.form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section__login {
+    width: 100%;
+}
+.login__titulo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.login__titulo h1 {
+    border-bottom: 2px solid rgb(18, 221, 18);
+}
+.form__box {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 0 50px;
+}
+.form__label {
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+.form__input{
+    width: 100%;
+    padding: 8px;
+    border-radius: 15px;
+    border: none;
+    margin-top: 10px;
+    background-color: rgb(170, 167, 167);
+
+}
+.form__position {
+    position: relative;
+}
+.form__position span {
+    position: absolute;
+    right: 1px;
+    top:39px;
+}
+.form__box p{
+    display: flex;
+    justify-content: end;
+}
+input[type="checkbox"]{
+    margin-left: 5px;
+}
+.link {
+    color: red;
+    margin-left: 5px;
+}
+.form__button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.form__button button{
+    width: 60%;
+    height: 50px;
+    border-radius: 15px;
+    background-color: rgb(18, 221, 18);
+    border: none;
+}
+@media (min-width:768px){
+    .section__login {
+        width: 50%;
+        margin: 0 25%;
+    }
+}
