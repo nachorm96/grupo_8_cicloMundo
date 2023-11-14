@@ -2,9 +2,9 @@
     margin: 20px;
     padding: 10px;
 }
-img {
+.main__product--producto img {
     width: 100%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 /* .main__product--section1{
     margin: 20px;
@@ -99,6 +99,9 @@ img {
 .titulos__producto {
     text-align: center;
 }
+.producto__relacionado img{
+    width: 100%;
+}
 .producto__relacionado {
     margin-bottom: 40px;
 }
@@ -126,6 +129,10 @@ img {
     }
 }
 @media (min-width:1024px){
+    .main__product--producto img {
+        width: 100%;
+        margin-top: -30px;
+    }
     .main__product--section3 {
         display: flex;
         flex-wrap: wrap;
@@ -135,3 +142,4 @@ img {
         width: 21%;
     }
 }
+
