@@ -1,0 +1,137 @@
+.main__product {
+    margin: 20px;
+    padding: 10px;
+}
+img {
+    width: 100%;
+    border: 2px solid black;
+}
+/* .main__product--section1{
+    margin: 20px;
+    padding: 10px;
+} */
+.main__product--producto{
+    width: 100%;
+    margin: 20px auto;
+}
+.main__product--descripcion{
+    width: 100%;
+    margin: 20px auto;
+    padding: 2px;
+}
+.box__compra {
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+.box__pedido {
+    display: contents;
+}
+.box__pedido--label {
+    margin-bottom: 10px;
+}
+.box__pedido--input {
+    width: 100%;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.box__agregar {
+    display: contents;
+    /* justify-content: space-between; */
+    margin: 20px 0;
+}
+.box__agregar--botones {
+    display: flex;
+    justify-content: left;
+    width: 35%;
+    margin: 20px 0;
+    background-color: grey;
+    border-radius: 20px;
+}
+.box__agregar--button1 {
+    width: 100%;
+    border-radius: 20px 0 0 20px;
+    border: none;
+    background-color: grey;
+    padding: 5px;
+    cursor:pointer;
+}
+.box__agregar--button2 {
+    width: 100%;
+    border-radius: 0 20px 20px 0;
+    border: none;
+    background-color: grey;
+    padding: 5px;
+    cursor:pointer;
+}
+.box__agregar--button3 {
+    width: 50%;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: inherit;
+    cursor:pointer;
+}
+.box__envio {
+    display: flex;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 40px;
+}
+.box__envio input {
+    width: 50%;
+    border:none;
+    border-radius: 20px 0 0 20px;
+}
+.box__envio button {
+    width: 50%;
+    border:none;
+    border-radius: 0 20px 20px 0;
+    height: 40px;
+    cursor:pointer;
+}
+.main__product--section2{
+    border: 2px solid red;
+    padding: 15px;
+}
+.titulos__producto {
+    text-align: center;
+}
+.producto__relacionado {
+    margin-bottom: 40px;
+}
+.producto__relacionado p {
+    text-align: center;
+}
+
+@media (min-width:768px){
+    .main__product--section1 {
+        display: flex;
+    }
+    .main__product--producto{
+        width: 60%;
+    }
+    .main__product--descripcion {
+        width: 30%;
+    }
+    .main__product--section3 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10%;
+    }
+    .producto__relacionado {
+        width: 45%;
+    }
+}
+@media (min-width:1024px){
+    .main__product--section3 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5.2%;
+    }
+    .producto__relacionado {
+        width: 21%;
+    }
+}
