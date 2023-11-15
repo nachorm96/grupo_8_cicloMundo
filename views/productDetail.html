@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/54d31be2c4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="/css/styles.css">
     <title></title>
 </head>
@@ -13,7 +14,42 @@
     <main class="main__product">
         <section class="main__product--section1">
             <article class="main__product--producto">
-                <img src="/img/22xtcadvancedsl291.png" alt="">
+                <!-- <img src="/img/22xtcadvancedsl291.png" alt=""> -->
+                <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="/img/22xtcadvancedsl291.png" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="/img/Giant_XTC_Advanced_SL_29_1_01a.jpg" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="/img/GIANT-XTC-ADVANCED-SL-29-1-BIKE-3.jpg" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="/img/xtc_adv_sl_29_showcase_gallery01.jpg" />
+                      </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                  </div>
+                  <div thumbsSlider="" class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="/img/22xtcadvancedsl291.png" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="/img/Giant_XTC_Advanced_SL_29_1_01a.jpg" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="/img/GIANT-XTC-ADVANCED-SL-29-1-BIKE-3.jpg" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="/img/xtc_adv_sl_29_showcase_gallery01.jpg" />
+                      </div>
+                    </div>
+                  </div>
+                <!--  -->
             </article>
             <article class="main__product--descripcion">
                 <h3>Giant XTC ADVANCED SL 29 1</h3>
@@ -93,6 +129,30 @@
                     <p>$$$$$$$$</p>
             </article>
         </section>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      loop: true,
+      spaceBetween: 10,
+      slidesPerView: 4,
+      freeMode: true,
+      watchSlidesProgress: true,
+    });
+    var swiper2 = new Swiper(".mySwiper2", {
+      loop: true,
+      spaceBetween: 10,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      thumbs: {
+        swiper: swiper,
+      },
+    });
+  </script>
     </main>
 </body>
 
