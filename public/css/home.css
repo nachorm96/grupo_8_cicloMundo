@@ -26,6 +26,7 @@ a {
     .home__main__section--productos {
         display: flex;
         flex-wrap: wrap;
+        margin: 0 20px;
     }
     .home__section__article--producto img {
         height: 220px;
@@ -43,6 +44,7 @@ a {
     .home__main__section--productos {
         display: flex;
         flex-wrap: wrap;
+        margin: 0 50px;
     }
     .home__section__article--producto {
         width: 25%;
