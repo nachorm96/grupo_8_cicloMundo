@@ -113,8 +113,14 @@
 .producto__relacionado {
     margin-bottom: 40px;
 }
-.producto__relacionado p {
-    text-align: center;
+.producto__descripcion_home {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: var(--colorNegro);
+}
+a {
+    text-decoration: none;
 }
 
 /* swiper */
