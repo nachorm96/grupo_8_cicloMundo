@@ -1,5 +1,5 @@
 # CICLOMUNDO - GRUPO 8
-![Logo](/extras/logo/Posible%20logo%20gp82.jpeg)
+![Logo](/img/Posiblelogogp82.jpeg)
 ## TEMATICA
 Somos un e-commerce enfocado en la venta de bicicletas, accesorios e indumentaria deportiva. Ofreciendo productos de distintas variedades enfocados en el deporte sobre dos ruedas el cual es apto para toda la familia, sin rango de edades.
 
