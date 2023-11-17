@@ -1,0 +1,118 @@
+.cart__main {
+    padding: 10px 0;
+}
+
+.cart__main h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.cart__main__section__products {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.cart__main__section__products__product {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #c0c0c0;
+    border-radius: 10px;
+    justify-content: space-between;
+    margin: 15px 0;
+    padding: 8px 0;
+}
+
+.cart__main__section__products__product--img {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart__main__section__products__product--img img {
+    width: 85%;
+    height: 85%;
+}
+
+.cart__main__section__products__product--description {
+    font-family: sans-serif;
+    font-size: 13px;
+    width: 55%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15px;
+}
+
+.cart--product-description {
+    width: 100%;
+    margin: 0;
+    padding-bottom: 6px;
+}
+
+.cart--product-price, .cart--product-amount, .cart--product-subtotal {
+    width: 49%;
+    margin: 0;
+    padding-bottom: 6px;
+}
+
+.cart--product-amount input {
+    font-size: 10px;
+    margin: 0;
+    padding: 2px 3px;
+}
+
+.cart__main__section__products__product--delete {
+    width: 10%;
+}
+
+.cart__main__section__products__product--delete i {
+    color: #353535;
+}
+
+.cart__main__total {
+    width: 95%;
+    margin: 0 auto;
+    border: 1px solid #c0c0c0;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 15px 0;
+}
+
+.cart--final-subtotal, .cart--final-envio, .cart--final-total {
+    width: 40%;
+    margin: 10px 0;
+}
+
+.link {
+    text-decoration: none;
+    color: #003ca4;
+    text-transform: none;
+}
+
+.cart--finalizar-button {
+    padding: 10px;
+    background-color: #09885b;
+    border-radius: 5px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+@media (min-width: 768px) {
+    .cart__main__section__products {
+        width: 80%;
+    }
+
+    .cart__main__total {
+        width: 80%;
+    }
+
+    
+}
