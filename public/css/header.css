@@ -1,0 +1,218 @@
+@media (min-width:390px) {
+    header {
+        background-image: url(/img/ciclista-vista-lateral-silueta.jpg);
+        height: 250px;
+    }
+
+    header nav .login_register,
+    header nav .site {
+        display: none;
+    }
+
+    header .logo img {
+        width: 120px;
+        padding: 5px;
+        margin: 10px;
+        position: relative;
+        top: 5px;
+        border: solid 2px var(--colorGrisOscuro);
+        border-radius: 50%;
+        box-shadow: 0px 0px 30px rgb(100, 100, 100);
+    }
+
+    header .search {
+        position: relative;
+        left: 320px;
+        top: -60px;
+        padding: 10px;
+        transform: translate(-50%, -50%);
+    }
+
+    header .search input {
+        outline: none;
+        width: 0;
+        height: 30px;
+        border: solid 1px var(--colorCelestin);
+        border-radius: 8px;
+        transition: all .7s ease;
+    }
+
+    header .search:hover input {
+        width: 180px;
+    }
+
+    header .search .btn {
+        position: relative;
+        left: -5px;
+        bottom: 30px;
+        width: 30px;
+        height: 30px;
+        background: var(--colorCeleste);
+        line-height: 30px;
+        border-radius: 8px;
+        text-align: center;
+        cursor: pointer;
+        transition: all .7s ease;
+    }
+
+    header .search .btn i {
+        font-size: 15px;
+        cursor: pointer;
+        line-height: 30px;
+        transition: all .7s ease;
+    }
+
+    header .search:hover i {
+        transform: rotate(-360deg);
+    }
+
+    header .search:hover .btn {
+        left: 155px;
+    }
+
+    header .topnav .user {
+        font-size: 30px;
+        margin-right: 10px;
+        position: relative;
+        left: 320px;
+        top: -190px;
+    }
+
+    header .topnav .burguer {
+        font-size: 30px;
+        margin-left: 10px;
+        position: relative;
+        left: 345px;
+        top: -223px;
+    }
+
+    header .topnav .cart {
+        font-size: 30px;
+        position: relative;
+        left: 340px;
+        top: -180px;
+    }
+
+    .topnav .user,
+    .topnav .burguer,
+    .topnav .cart {
+        cursor: pointer;
+        transition: color .5s ease;
+    }
+
+    .topnav .user:hover,
+    .topnav .burguer:hover,
+    .topnav .cart:hover {
+        color: var(--colorCeleste);
+    }
+
+    header .listas {
+        position: relative;
+        top: -160px;
+        left: 110px;
+    }
+
+    header .listas a {
+        margin: 10px;
+        padding: 5px;
+        color: black;
+        text-decoration: none;
+        border: solid 1px var(--colorGrisOscuro);
+        border-radius: 8px;
+        background-color: rgba(70, 146, 169, 0.499);
+    }
+}
+
+@media (min-width:768px) {
+    header .logo img {
+        width: 160px;
+    }
+
+    header .search {
+        left: 620px;
+        top: -90px;
+    }
+
+    .burguer,
+    .user {
+        display: none;
+    }
+
+    header .topnav .cart i {
+        position: relative;
+        left: 350px;
+        top: -10px;
+    }
+
+    header .listas {
+        left: 290px;
+    }
+
+    header nav .login_register,
+    header nav .site {
+        display: contents;
+    }
+    header nav .login_register a{
+        margin: 10px;
+    }
+    header nav .login_register a,
+    header nav .site a {
+        text-decoration: none;
+        color: black;
+        position: relative;
+        top: -305px;
+        left: 170px;
+        margin-top: 10px;
+        padding: 2px;
+        border: solid 1px var(--colorGrisOscuro);
+        border-radius: 8px;
+        background-color: rgba(70, 146, 169, 0.499);
+    }
+    
+}
+@media (min-width:1440px) {
+    header .logo img {
+        width: 220px;
+    }
+
+    header .search {
+        left: 1120px;
+        top: -90px;
+    }
+
+    .burguer,
+    .user {
+        display: none;
+    }
+
+    header .topnav .cart i {
+        position: relative;
+        left: 1000px;
+        top: -45px;
+    }
+
+    header .listas {
+        left: 630px;
+    }
+
+    header nav .login_register,
+    header nav .site {
+        display: contents;
+    }
+    header nav .login_register a{
+        margin-left: 80px;
+    }
+    header nav .login_register a,
+    header nav .site a {
+        text-decoration: none;
+        color: black;
+        position: relative;
+        top: -340px;
+        left: 470px;
+        margin-top: 20px;
+        padding: 5px;
+        border: solid 1px var(--colorGrisOscuro);
+        border-radius: 8px;
+        background-color: rgba(70, 146, 169, 0.499);
+    }
+}
