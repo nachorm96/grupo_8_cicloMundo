@@ -1,0 +1,106 @@
+.home__section__article--producto {
+    padding: 30px;
+}
+.home__section__article--producto img {
+    width: 100%;
+    border: 1px solid var(--colorGrisOscuro);
+}
+.producto__descripcion {
+    border-bottom: 2px solid var(--colorVerde);
+    color: var(--colorNegro);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+a {
+    text-decoration: none;
+    list-style: none;
+}
+.home__titulos {
+    text-align: center;
+    border: 2px solid var(--colorVerde);
+    margin: 30px;
+}
+
+@media (min-width:768px){
+    .home__main__section--productos {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 20px;
+    }
+    .home__section__article--producto img {
+        height: 220px;
+    }
+    .home__section__article--producto {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+@media (min-width:1024px){
+    .home__section__article--producto img {
+        width: 100%;
+        height: 160px;
+    }
+    .home__main__section--productos {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 50px;
+    }
+    .home__section__article--producto {
+        width: 25%;
+        margin: 0 auto;
+    }
+}
+/* carrusel */
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .autoplay-progress {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    z-index: 10;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: var(--swiper-theme-color);
+    display: none;
+  }
+
+  .autoplay-progress svg {
+    --progress: 0;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    stroke-width: 4px;
+    stroke: var(--swiper-theme-color);
+    fill: none;
+    stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+    stroke-dasharray: 125.6;
+    transform: rotate(-90deg);
+    display: none;
+  }
