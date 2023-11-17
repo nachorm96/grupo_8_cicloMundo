@@ -1,5 +1,9 @@
 .register {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--tipografiaGeneral);
+}
+
+.register__main {
+    padding-top: 20px;
 }
 .register__main h2 {
     text-transform: uppercase;
