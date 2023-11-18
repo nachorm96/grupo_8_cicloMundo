@@ -17,8 +17,9 @@ footer {
 }
 
 .listas_footer span {
+    width: 50%;
     position: relative;
-    left: 16px;
+    right: -20px;
     font-size: 16px;
 }
 
@@ -34,7 +35,7 @@ footer {
 
 .rights span {
     position: relative;
-    left: 40px;
+    left: 20px;
 }
 
 .listas_footer span i,
@@ -43,31 +44,43 @@ footer {
 }
 
 @media (min-width:768px) {
+    footer {
+        height: 80px;
+    }
     .text h3 {
+        position: relative;
+        top: -12px;
         left: 330px;
     }
 
     .listas_footer {
+        position: absolute;
         margin-top: 40px;
+        left: 100px;
     }
 
     .listas_footer span {
         position: relative;
-        left: 80px;
+        left: 88px;
+        top: -25px;
         font-size: 16px;
     }
 
     .rights {
         margin-top: 20px;
+        position: absolute;
     }
 
     .rights span {
         position: relative;
-        left: 230px;
+        left: 200px;
+        top: 20px;
     }
 }
-
 @media (min-width:1024px) {
+    footer {
+        height: 140px;
+    }
     .text h3 {
         left: 460px;
     }
