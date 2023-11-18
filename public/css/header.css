@@ -174,14 +174,14 @@
 
 }
 
-@media (min-width:1440px) {
+@media (min-width:1024px) {
     header .logo img {
         width: 220px;
     }
 
     header .search {
-        width: 800px;
-        left: 820px;
+        width: 300px;
+        left: 520px;
         top: -120px;
     }
 
@@ -189,19 +189,21 @@
     .user {
         display: none;
     }
-
+    header .topnav .cart {
+        width: 300px;
+    }
     header .topnav .cart i {
         position: relative;
-        left: 1000px;
+        left: 600px;
         top: -45px;
     }
 
     header .listas {
-        right: 10px;
+        right: 20px;
         width: 1000px;
     }
     header .listas a {
-        right: -200px;
+        right: -300px;
     }
 
     header nav .login_register,
@@ -219,7 +221,7 @@
         color: black;
         position: relative;
         top: -340px;
-        left: 470px;
+        left: 270px;
         margin-top: 20px;
         padding: 5px;
         border: solid 1px var(--colorGrisOscuro);

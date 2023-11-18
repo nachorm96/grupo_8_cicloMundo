@@ -67,14 +67,14 @@ footer {
     }
 }
 
-@media (min-width:1440px) {
+@media (min-width:1024px) {
     .text h3 {
-        left: 660px;
+        left: 460px;
     }
     .listas_footer {
         margin-top: 40px;
         position: relative;
-        left: 350px;
+        left: 125px;
     }
     .listas_footer a {
         margin-top: 70px;
@@ -87,6 +87,6 @@ footer {
     }
 
     .rights span {
-        left: 230px;
+        left: 170px;
     }
 }
