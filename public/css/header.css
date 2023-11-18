@@ -130,8 +130,15 @@
     }
 
     header .search {
+        width: 280px;
         left: 620px;
         top: -90px;
+    }
+    header .listas {
+        width: 300px;
+    }
+    header .topnav .cart {
+        width: 300px;
     }
 
     .burguer,
