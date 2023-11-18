@@ -5,6 +5,7 @@
 }
 .section__login {
     width: 100%;
+    margin-bottom: 60px;
 }
 .login__titulo {
     display: flex;
@@ -48,7 +49,7 @@
 input[type="checkbox"]{
     margin-left: 5px;
 }
-.link {
+.link__login {
     color: red;
     margin-left: 5px;
 }
@@ -69,5 +70,6 @@ input[type="checkbox"]{
     .section__login {
         width: 50%;
         margin: 0 25%;
+        margin-bottom: 60px;
     }
 }

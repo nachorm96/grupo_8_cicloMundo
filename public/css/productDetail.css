@@ -162,15 +162,15 @@ a {
 
   .mySwiper {
     height: 20%;
-    margin-top: -7%;
+    /* margin-top: -7%; */
     box-sizing: border-box;
-    padding: 10px 0;
+    /* padding: 10px 0; */
   }
 
   .mySwiper .swiper-slide {
     width: 25%;
     height: 150%;
-    opacity: 0.4;
+    /* opacity: 0.4; */
   }
 
   .mySwiper .swiper-slide-thumb-active {
@@ -182,7 +182,9 @@ a {
     width: 100%;
     object-fit: cover;
   }
-
+.banner__product__detail {
+    margin-top: -5%;
+}
 @media (min-width:768px){
     .main__product {
         margin: 20px 50px;
@@ -193,6 +195,7 @@ a {
     }
     .main__product--producto{
         width: 60%;
+        height: fit-content;
     }
     .main__product--descripcion {
         width: 30%;
@@ -214,7 +217,7 @@ a {
     }
     .main__product--producto img {
         width: 100%;
-        margin-top: -30px;
+        /* margin-top: -30px; */
     }
     .main__product--section2 article p {
         font-size: 20px;
