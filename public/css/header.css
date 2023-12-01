@@ -22,7 +22,7 @@
     header .search {
         width: 50%;
         position: relative;
-        left: 230px;
+        left: 290px;
         top: -60px;
         padding: 0;
         transform: translate(-50%, -50%);
@@ -30,7 +30,7 @@
 
     header .search input {
         outline: none;
-        width: 0;
+        width: 10px;
         height: 30px;
         border: solid 1px var(--colorCelestin);
         border-radius: 8px;
@@ -38,7 +38,7 @@
     }
 
     header .search:hover input {
-        width: 180px;
+        width: 160px;
     }
 
     header .search .btn {
@@ -152,7 +152,7 @@
         }
         header .search .btn {
             position: relative;
-            top: -28px;
+            top: -30px;
         }
 
         header .listas {
@@ -215,7 +215,9 @@
             left: 520px;
             top: -120px;
         }
-
+        header .search .btn {
+            top: -30px;
+        }
         .burguer,
         .user {
             display: none;
@@ -255,7 +257,7 @@
             color: black;
             position: relative;
             top: -340px;
-            left: 270px;
+            left: 305px;
             margin-top: 20px;
             padding: 5px;
             border: solid 1px var(--colorGrisOscuro);

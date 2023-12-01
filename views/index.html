@@ -18,13 +18,15 @@
     <nav>
         <article class="topnav">
             <div class="search">
-                <input type="text" placeholder="Que estas buscando?">
+                <input type="text" placeholder="Que buscas?">
                 <div class="btn">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
             </div>
             <div class="user">
+                <a href="/login">
                 <i class="fa-solid fa-user"></i>
+            </a>
             </div>
             <div class="burguer">
                 <i class="fa-solid fa-bars"></i>
@@ -293,6 +295,14 @@
             <i class="fa-brands fa-facebook"></i>
             <i class="fa-brands fa-instagram"></i>
         </span>
+    </div>
+    <div class="newsletter-container">
+        <h2>Newsletter</h2>
+        <form action="procesar_formulario" method="post">
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+            <button type="submit">Suscribirse</button>
+        </form>
     </div>
 </footer>
 
