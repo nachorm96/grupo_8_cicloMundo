@@ -1,16 +1,50 @@
-const express = require('express');
-const app = express();
-const path = require('path');
-const PORT = 3030;
+var createError = require('http-errors');
+var express = require('express');
+var path = require('path');
+var cookieParser = require('cookie-parser');
+var logger = require('morgan');
 
+var indexRouter = require('./routes/index');
+var usersRouter = require('./routes/users');
+var loginRouter = require('./routes/login');
+var registerRouter = require('./routes/register');
+var cartRouter = require('./routes/productCart');
+var detailRouter = require('./routes/productDetail');
 
-app.use(express.static(path.join(__dirname,'public')))
+var app = express();
 
-app.get('/', (req,res) => res.sendFile(path.join(__dirname, 'views','index.html')))
-app.get('/login', (req,res) => res.sendFile(path.join(__dirname, 'views','login.html')))
-app.get('/register', (req,res) => res.sendFile(path.join(__dirname, 'views','register.html')))
-app.get('/productCart', (req,res) => res.sendFile(path.join(__dirname, 'views','productCart.html')))
-app.get('/productDetail', (req,res) => res.sendFile(path.join(__dirname, 'views','productDetail.html')))
+// view engine setup
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'ejs');
 
+app.use(logger('dev'));
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
+app.use(cookieParser());
+app.use(express.static(path.join(__dirname, 'public')));
 
-app.listen(PORT,() => console.log(`Servidor corriendo en http://localhost:${PORT} `))
+// rutas
+app.use('/', indexRouter);
+app.use('/users', usersRouter);
+app.use('/login', loginRouter);
+app.use('/register', registerRouter);
+app.use('/productCart', cartRouter);
+app.use('/productDetail', detailRouter);
+
+// catch 404 and forward to error handler
+app.use(function(req, res, next) {
+  next(createError(404));
+});
+
+// error handler
+app.use(function(err, req, res, next) {
+  // set locals, only providing error in development
+  res.locals.message = err.message;
+  res.locals.error = req.app.get('env') === 'development' ? err : {};
+
+  // render the error page
+  res.status(err.status || 500);
+  res.render('error');
+});
+
+module.exports = app;

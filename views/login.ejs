@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/54d31be2c4.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/stylesheets/styles.css">
     <title></title>
 </head>
 <header>
     <div class="logo">
         <a href="/">
-            <img src="/img/Posiblelogogp82.jpeg" alt="logoimage">
+            <img src="/images/Posiblelogogp82.jpeg" alt="logoimage">
         </a>
     </div>
     <nav>
@@ -23,13 +23,17 @@
                 </div>
             </div>
             <div class="user">
-                <i class="fa-solid fa-user"></i>
+                <a href="/login">
+                    <i class="fa-solid fa-user"></i>
+                </a>
             </div>
             <div class="burguer">
                 <i class="fa-solid fa-bars"></i>
             </div>
             <div class="cart">
-                <i class="fa-solid fa-cart-shopping"></i>
+                <a href="/productCart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
             </div>
         </article>
         <div class="listas">
@@ -47,12 +51,13 @@
         </div>
         <div class="login_register">
             <span>
-                <a href="">Ingresa</a>
-                <a href="">Registrate</a>
+                <a href="/login">Ingresa</a>
+                <a href="/register">Registrate</a>
             </span>
         </div>
     </nav>
 </header>
+
 <body class="login">
     <main class="main__login">
         <div class="login__titulo">
@@ -67,12 +72,14 @@
                 <div class="form__login__box">
                     <div class="form__login__position">
                         <label class="form__login__label" for="">Contraseña</label>
-                        <input class="form__login__input" type="password" placeholder="Escriba su contraseña"><span><i class="fa-solid fa-eye-slash"></i></span>                </div>
+                        <input class="form__login__input" type="password" placeholder="Escriba su contraseña"><span><i
+                                class="fa-solid fa-eye-slash"></i></span>
                     </div>
+                </div>
                 <div class="form__login__box">
                     <input type="checkbox" id="remember" name="remember">
                     <label for="remember">Recordame</label>
-                    <p>¿Olvidaste tu contraseña?  <a class="link__login" href="/"> Haz clic aqui</a></p>
+                    <p>¿Olvidaste tu contraseña? <a class="link__login" href="/"> Haz clic aqui</a></p>
                 </div>
 
                 <div class="form__login__button">
@@ -101,6 +108,14 @@
                 <i class="fa-brands fa-facebook"></i>
                 <i class="fa-brands fa-instagram"></i>
             </span>
+        </div>
+        <div class="newsletter-container">
+            <h2>Newsletter</h2>
+            <form action="procesar_formulario" method="post">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+                <button type="submit">Suscribirse</button>
+            </form>
         </div>
     </footer>
 </body>

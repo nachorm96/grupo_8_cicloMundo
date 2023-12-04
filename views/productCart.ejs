@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/54d31be2c4.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/stylesheets/styles.css">
     <title> detalles producto</title>
 </head>
 <header>
     <div class="logo">
         <a href="/">
-            <img src="/img/Posiblelogogp82.jpeg" alt="logoimage">
+            <img src="/images/Posiblelogogp82.jpeg" alt="logoimage">
         </a>
     </div>
     <nav>
@@ -23,13 +23,17 @@
                 </div>
             </div>
             <div class="user">
-                <i class="fa-solid fa-user"></i>
+                <a href="/login">
+                    <i class="fa-solid fa-user"></i>
+                </a>
             </div>
             <div class="burguer">
                 <i class="fa-solid fa-bars"></i>
             </div>
             <div class="cart">
-                <i class="fa-solid fa-cart-shopping"></i>
+                <a href="/productCart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
             </div>
         </article>
         <div class="listas">
@@ -47,56 +51,59 @@
         </div>
         <div class="login_register">
             <span>
-                <a href="">Ingresa</a>
-                <a href="">Registrate</a>
+                <a href="/login">Ingresa</a>
+                <a href="/register">Registrate</a>
             </span>
         </div>
     </nav>
 </header>
+
 <body class="cart">
     <main class="cart__main">
         <section class="cart__main__section__products">
             <h2>carrito de compras</h2>
             <div class="cart__main__section__products__product">
                 <div class="cart__main__section__products__product--img">
-                <img src="https://canaglia.com/wp-content/uploads/2022/12/Bicicleta-Fire-Bird-XC-2022-R29-NegroAmarillo.jpg" alt="">
+                    <img src="https://canaglia.com/wp-content/uploads/2022/12/Bicicleta-Fire-Bird-XC-2022-R29-NegroAmarillo.jpg"
+                        alt="">
                 </div>
                 <div class="cart__main__section__products__product--description">
-                <p class="cart--product-description">Descripción del producto</p>
-                <p class="cart--product-price">PRECIO</p>
-                <p class="cart--product-price">$200.000</p>
-                <p class="cart--product-amount">CANTIDAD</p>
-                <div class="cart--product-amount">
-                    <input type="button" value="-">
-                    <input type="button" value="1">
-                    <input type="button" value="+">
-                </div>
-                <p class="cart--product-subtotal">SUBTOTAL</p>
-                <p class="cart--product-subtotal">$200.000</p>
+                    <p class="cart--product-description">Descripción del producto</p>
+                    <p class="cart--product-price">PRECIO</p>
+                    <p class="cart--product-price">$200.000</p>
+                    <p class="cart--product-amount">CANTIDAD</p>
+                    <div class="cart--product-amount">
+                        <input type="button" value="-">
+                        <input type="button" value="1">
+                        <input type="button" value="+">
+                    </div>
+                    <p class="cart--product-subtotal">SUBTOTAL</p>
+                    <p class="cart--product-subtotal">$200.000</p>
                 </div>
                 <div class="cart__main__section__products__product--delete">
                     <i class="fa-solid fa-trash-can"></i>
-                    </div>
+                </div>
             </div>
             <div class="cart__main__section__products__product">
                 <div class="cart__main__section__products__product--img">
-                <img src="https://canaglia.com/wp-content/uploads/2022/12/Bicicleta-Fire-Bird-XC-2022-R29-NegroAmarillo.jpg" alt="">
+                    <img src="https://canaglia.com/wp-content/uploads/2022/12/Bicicleta-Fire-Bird-XC-2022-R29-NegroAmarillo.jpg"
+                        alt="">
                 </div>
                 <div class="cart__main__section__products__product--description">
-                <p class="cart--product-description">Descripción del producto</p>
-                <p class="cart--product-price">PRECIO</p>
-                <p class="cart--product-price">$200.000</p>
-                <p class="cart--product-amount">CANTIDAD</p>
-                <div class="cart--product-amount">
-                    <input type="button" value="-">
-                    <input type="button" value="1">
-                    <input type="button" value="+">
-                </div>
-                <p class="cart--product-subtotal">SUBTOTAL</p>
-                <p class="cart--product-subtotal">$200.000</p>
+                    <p class="cart--product-description">Descripción del producto</p>
+                    <p class="cart--product-price">PRECIO</p>
+                    <p class="cart--product-price">$200.000</p>
+                    <p class="cart--product-amount">CANTIDAD</p>
+                    <div class="cart--product-amount">
+                        <input type="button" value="-">
+                        <input type="button" value="1">
+                        <input type="button" value="+">
+                    </div>
+                    <p class="cart--product-subtotal">SUBTOTAL</p>
+                    <p class="cart--product-subtotal">$200.000</p>
                 </div>
                 <div class="cart__main__section__products__product--delete">
-                <i class="fa-solid fa-trash-can"></i>
+                    <i class="fa-solid fa-trash-can"></i>
                 </div>
             </div>
         </section>
@@ -135,6 +142,15 @@
                 <i class="fa-brands fa-instagram"></i>
             </span>
         </div>
+        <div class="newsletter-container">
+            <h2>Newsletter</h2>
+            <form action="procesar_formulario" method="post">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+                <button type="submit">Suscribirse</button>
+            </form>
+        </div>
     </footer>
 </body>
+
 </html>
