@@ -1,62 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/54d31be2c4.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/stylesheets/styles.css">
-    <title> detalles producto</title>
-</head>
-<header>
-    <div class="logo">
-        <a href="/">
-            <img src="/images/Posiblelogogp82.jpeg" alt="logoimage">
-        </a>
-    </div>
-    <nav>
-        <article class="topnav">
-            <div class="search">
-                <input type="text" placeholder="Que estas buscando?">
-                <div class="btn">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
-            </div>
-            <div class="user">
-                <a href="/login">
-                    <i class="fa-solid fa-user"></i>
-                </a>
-            </div>
-            <div class="burguer">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-            <div class="cart">
-                <a href="/productCart">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </a>
-            </div>
-        </article>
-        <div class="listas">
-            <a href="">Ropa</a>
-            <a href="">Cascos</a>
-            <a href="">Bicis</a>
-        </div>
-        <div class="site">
-            <span>
-                <a href="">Sobre nosotros</a>
-                <a href="">Medios de pago</a>
-                <a href="">Contacto</a>
-                <a href="">Ayuda</a>
-            </span>
-        </div>
-        <div class="login_register">
-            <span>
-                <a href="/login">Ingresa</a>
-                <a href="/register">Registrate</a>
-            </span>
-        </div>
-    </nav>
-</header>
+<%- include('./partials/head')  %>
+<%- include('./partials/header')  %>
 
 <body class="cart">
     <main class="cart__main">
@@ -124,33 +70,7 @@
         </div>
 
     </main>
-    <footer>
-        <div class="text">
-            <h3>CICLOMUNDO</h3>
-        </div>
-        <div class="listas_footer">
-            <span>
-                <a href="">Terminos y condiciones</a>
-                <a href="">Chatea con nosotros</a>
-                <i class="fa-brands fa-whatsapp"></i>
-            </span>
-        </div>
-        <div class="rights">
-            <span>
-                2023 - Todos los derechos reservados
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-instagram"></i>
-            </span>
-        </div>
-        <div class="newsletter-container">
-            <h2>Newsletter</h2>
-            <form action="procesar_formulario" method="post">
-                <label for="email">Correo electrónico:</label>
-                <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
-                <button type="submit">Suscribirse</button>
-            </form>
-        </div>
-    </footer>
+    <%- include('./partials/footer') %>
 </body>
 
 </html>
