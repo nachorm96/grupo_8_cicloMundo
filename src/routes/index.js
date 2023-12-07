@@ -12,6 +12,7 @@ const indexController = require('../controllers/indexController')
 
 /* /index */
 router.get('/',indexController.index)
+router.get('/admin',indexController.admin)
 
 
 
