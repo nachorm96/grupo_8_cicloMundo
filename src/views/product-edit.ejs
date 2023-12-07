@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/c65f2f1cc8.js" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="/stylesheets/formProducts.css">
+        <title>Editar producto</title>
+      </head>
+<body class="product-edit">
+<%- include('./partials/headerAdmin') %>
+<main class="product-edit__main">
+    <h2>Editar producto</h2>
+    <section class="products__section">
+        <form class="products__form" action="">
+            <div class="products__form__box">
+                <label class="products__form__box__label" for="name">Nombre del producto</label>
+                <input class="products__form__box__input" id="name" name="name" type="text">
+            </div>
+            <div class="products__form__box">
+                <label class="products__form__box__label" for="idProduct">ID producto</label>
+                <input class="products__form__box__input" id="idProduct" name="idProduct" type="text">
+            </div>
+            <div class="products__form__box">
+                <label class="products__form__box__label" for="image">Agregar imagen</label>
+                <input class="products__form__box__input" id="image" type="file" accept="image/*">
+            </div>
+            <div class="products__form__box">
+                <label class="products__form__box__label" for="category">Categoría</label>
+                <select class="products__form__box__input" id="category" name="category">
+                    <option value="" selected hidden>
+                        Seleccione...
+                    </option>
+                    <option value="category1">categoría 1</option>
+                    <option value="category2">categoría 2</option>
+                    <option value="category3">categoría 3</option>
+                    <option value="category4">categoría 4</option>
+                    </select>
+            </div>
+            <div class="products__form__box">
+                <label class="products__form__box__label" for="rodado">Rodado</label>
+                <select class="products__form__box__input" id="rodado" name="rodado">
+                    <option value="" selected hidden>
+                        Seleccione...
+                    </option>
+                    <option value="rodado1">rodado 1</option>
+                    <option value="rodado2">rodado 2</option>
+                    <option value="rodado3">rodado 3</option>
+                    </select>
+            </div>
+            <div class="products__form__box">
+                <label class="products__form__box__label" for="color">Color</label>
+                <input class="products__form__box__input" id="color" name="color" type="text">
+            </div>
+            <div class="products__form__box">
+                <label class="products__form__box__label" for="price">Precio</label>
+                <input class="products__form__box__input" id="price" name="price" type="text">
+            </div>
+            <div class="products__form__box">
+                <label class="products__form__box__label" for="descrption">Descripción</label>
+                <textarea class="products__form__box__input" rows="3" name="descrption" id="descrption"></textarea>
+            </div>
+            <div class="products__form__box--button">
+                <a href="/" class="products__button" type="submit">Guardar cambios</a>
+            </div>
+        </form>
+    </section>
+</main>
+</body>
+</html>
