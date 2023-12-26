@@ -10,7 +10,9 @@ module.exports = {
     detail : (req,res)=> {
         const product=products.find(product=>product.id === +req.params.id)
         return res.render('products/product-detail',{
-            ...product
+            productsBici : products.filter(product=> product.precio < +100000),
+            products,
+            ...product,
         })
     },
     add : (req, res) => {

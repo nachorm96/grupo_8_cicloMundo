@@ -8,12 +8,12 @@ const toThousand = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 
 module.exports = {
     index : (req,res)=> {
+
       return res.render('index', {
         productsBici : products.filter(product=> product.categoria === "bicicletas"),
         products,
         toThousand
       })
-        // return res.render('index')
     },
     cart : (req,res)=> {
       return res.render('productCart')

@@ -14,16 +14,16 @@
         <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <img src="/images/productos/<%= mainImg[0]%>" />
+              <img src="/images/productos/<%= mainImg[0] || 'Producto-sin-imagen1.jpg'%>" />
             </div>
             <div class="swiper-slide">
-              <img src="/images/productos/<%= mainImg[1]%>" />
+              <img src="/images/productos/<%= mainImg[1] || 'Producto-sin-imagen1.jpg'%>" />
             </div>
             <div class="swiper-slide">
-              <img src="/images/productos/<%= mainImg[2]%>" />
+              <img src="/images/productos/<%= mainImg[2] || 'Producto-sin-imagen1.jpg'%>" />
             </div>
             <div class="swiper-slide">
-              <img src="/images/productos/<%= mainImg[3]%>" />
+              <img src="/images/productos/<%= mainImg[3] || 'Producto-sin-imagen1.jpg'%>" />
             </div>
           </div>
           <div class="swiper-button-next"></div>
@@ -32,16 +32,16 @@
         <div thumbsSlider="" class="swiper mySwiper banner__product__detail">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <img src="/images/productos/<%= mainImg[0]%>" />
+              <img src="/images/productos/<%= mainImg[0] || 'Producto-sin-imagen1.jpg'%>" />
             </div>
             <div class="swiper-slide">
-              <img src="/images/productos/<%= mainImg[1]%>" />
+              <img src="/images/productos/<%= mainImg[1] || 'Producto-sin-imagen1.jpg'%>" />
             </div>
             <div class="swiper-slide">
-              <img src="/images/productos/<%= mainImg[2]%>" />
+              <img src="/images/productos/<%= mainImg[2] || 'Producto-sin-imagen1.jpg'%>" />
             </div>
             <div class="swiper-slide">
-              <img src="/images/productos/<%= mainImg[3]%>" />
+              <img src="/images/productos/<%= mainImg[3] || 'Producto-sin-imagen1.jpg'%>" />
             </div>
           </div>
         </div>
@@ -122,7 +122,16 @@
     </section>
     <h2 class="titulos__producto">Productos relacionados</h2>
     <section class="main__product--section3">
-      <article class="producto__relacionado">
+
+      <!-- <article class="producto__relacionado"> -->
+      <article class="home__section__article--producto">
+        <% productsBici.forEach(product => { %>
+          <%- include('../partials/product-card', {product}) %>
+      <% }) %>
+      </article>
+
+
+      <!-- <article class="producto__relacionado">
         <a href="/">
           <img src="/images/Giant_XTC_Advanced_SL_29_1_01a.jpg" alt="">
           <div class="producto__descripcion_home">
@@ -161,7 +170,7 @@
             <h4>$$$</h4>
           </div>
         </a>
-      </article>
+      </article> -->
     </section>
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

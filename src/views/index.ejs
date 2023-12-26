@@ -29,9 +29,11 @@
                     </div>
                 </section>
                 <section class="home__main__section--productos">
+                    <article class="home__section__article--producto">
                     <% productsBici.forEach(product => { %>
                         <%- include('./partials/product-card', {product}) %>
                     <% }) %>
+                    </article>
                 </section>
 
 
