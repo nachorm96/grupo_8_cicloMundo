@@ -183,7 +183,7 @@ a {
     object-fit: cover;
   }
 .banner__product__detail {
-    margin-top: -5%;
+    margin-top: 2%;
 }
 @media (min-width:768px){
     .main__product {

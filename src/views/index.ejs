@@ -29,88 +29,14 @@
                     </div>
                 </section>
                 <section class="home__main__section--productos">
-                    <article class="home__section__article--producto">
-                        <a href="/products/productDetail">
-                            <img src="/images/Giant_XTC_Advanced_SL_29_1_01a.jpg" alt="">
-                            <div class="producto__descripcion">
-                                <h3>Giant XTC Advanced SL 29</h3>
-                                <p>20% con tarjeta bbva <i class="fa-solid fa-credit-card"></i></p>
-                                <h4>$5.063.215,00</h4>
-                            </div>
-                        </a>
-                    </article>
-                    <article class="home__section__article--producto">
-                        <a href="/products/productDetail">
-                            <img src="/images/Venzo-Raptor-Ex-R29-27-veloc-freno.jpg" alt="">
-                            <div class="producto__descripcion">
-                                <h3>Giant XTC Advanced SL 29</h3>
-                                <p>20% con tarjeta bbva <i class="fa-solid fa-credit-card"></i></p>
-                                <h4>$5.063.215,00</h4>
-                            </div>
-                        </a>
-                    </article>
-                    <article class="home__section__article--producto">
-                        <a href="/products/productDetail">
-                            <img src="/images/xtc_adv_sl_29_showcase_gallery01.jpg" alt="">
-                            <div class="producto__descripcion">
-                                <h3>Giant XTC Advanced SL 29</h3>
-                                <p>20% con tarjeta bbva <i class="fa-solid fa-credit-card"></i></p>
-                                <h4>$5.063.215,00</h4>
-                            </div>
-                        </a>
-                    </article>
-                    <article class="home__section__article--producto">
-                        <a href="/products/productDetail">
-                            <img src="/images/22xtcadvancedsl291.png" alt="">
-                            <div class="producto__descripcion">
-                                <h3>Giant XTC Advanced SL 29</h3>
-                                <p>20% con tarjeta bbva <i class="fa-solid fa-credit-card"></i></p>
-                                <h4>$5.063.215,00</h4>
-                            </div>
-                        </a>
-                    </article>
-                    <article class="home__section__article--producto">
-                        <a href="/products/productDetail">
-                            <img src="/images/Giant_XTC_Advanced_SL_29_1_01a.jpg" alt="">
-                            <div class="producto__descripcion">
-                                <h3>Giant XTC Advanced SL 29</h3>
-                                <p>20% con tarjeta bbva <i class="fa-solid fa-credit-card"></i></p>
-                                <h4>$5.063.215,00</h4>
-                            </div>
-                        </a>
-                    </article>
-                    <article class="home__section__article--producto">
-                        <a href="/products/productDetail">
-                            <img src="/images/Venzo-Raptor-Ex-R29-27-veloc-freno.jpg" alt="">
-                            <div class="producto__descripcion">
-                                <h3>Giant XTC Advanced SL 29</h3>
-                                <p>20% con tarjeta bbva <i class="fa-solid fa-credit-card"></i></p>
-                                <h4>$5.063.215,00</h4>
-                            </div>
-                        </a>
-                    </article>
-                    <article class="home__section__article--producto">
-                        <a href="/products/productDetail">
-                            <img src="/images/xtc_adv_sl_29_showcase_gallery01.jpg" alt="">
-                            <div class="producto__descripcion">
-                                <h3>Giant XTC Advanced SL 29</h3>
-                                <p>20% con tarjeta bbva <i class="fa-solid fa-credit-card"></i></p>
-                                <h4>$5.063.215,00</h4>
-                            </div>
-                        </a>
-                    </article>
-                    <article class="home__section__article--producto">
-                        <a href="/products/productDetail">
-                            <img src="/images/22xtcadvancedsl291.png" alt="">
-                            <div class="producto__descripcion">
-                                <h3>Giant XTC Advanced SL 29</h3>
-                                <p>20% con tarjeta bbva <i class="fa-solid fa-credit-card"></i></p>
-                                <h4>$5.063.215,00</h4>
-                            </div>
-                        </a>
-                    </article>
+                    <% productsBici.forEach(product => { %>
+                        <%- include('./partials/product-card', {product}) %>
+                    <% }) %>
                 </section>
-                <h2 class="home__titulos">Acompaña tu compra</h2>
+
+
+
+                <!-- <h2 class="home__titulos">Acompaña tu compra</h2>
                 <section class="home__main__section--productos">
                     <article class="home__section__article--producto">
                         <a href="/productDetail">
@@ -192,7 +118,7 @@
                             </div>
                         </a>
                     </article>
-                </section>
+                </section> -->
             </main>
             <!-- Swiper JS -->
             <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

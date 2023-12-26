@@ -2,12 +2,18 @@
     {
         "id": 1,
         "nombre": "Giant XTC Advanced SL 29",
-        "rodado": 20,
-        "color": "verde",
+        "rodado": [19,20,22,29],
+        "color": ["azul negra","verde negra,"],
         "precio": 5000000,
         "categoria": "bicicletas",
         "descripcion": "Cuadro de carbono Composite Advanced SL El XTC Advanced SL 29 utiliza nuestra tecnología de carbono Composite Advanced SL más avanzada. Totalmente ensamblado a mano en nuestra propia fábrica, su cuadro utiliza una trama de carbono tejida in situ, una resina de carbono con micropartículas para mejorar la resistencia al impacto y un proceso único de ensamblaje por fusión, para uniones más ligeras y resistentes.Geometría XC moderna Una geometría inspirada en el XC moderno que favorece la velocidad y el rendimiento. El diseño del cuadro y la colocación con criterio de las fibras de carbono permiten ofrecer un comportamiento idéntico en todos las tallas del cuadro.Ruedas de 29 pulgadas,Las ruedas de 29 pulgadas proporcionan un mejor rendimiento, favorecen el equilibrio y la estabilidad de la bicicleta. Te darán el poder de conducir a toda velocidad.",
-        "mainImg": "Giant_XTC_Advanced_SL.jpg"
+        "mainImg": [
+            "Giant_XTC_Advanced_SL.jpg",
+            "SLP E-Bike MTB EM-1.jpg",
+            "SLP 5 Woman R29 2023.jpg",
+            "SLP-COMET-NEBL-.jpg",
+            "SLP Touring Varón R28.jpg"
+        ]
     },
     {
         "id": 2,
@@ -27,7 +33,7 @@
         "precio": 955098,
         "categoria": "bici",
         "descripcion": "¿Estás listo para aventuras todoterreno emocionantes? Bicicleta de gravel Raleigh con cuadro de aluminio es la elección perfecta. Equipada con un sistema de cambios Ltwo monoplato de 11 velocidades y un amplio piñón 11/46, esta bicicleta te lleva a donde quieras, sin importar el terreno.Discos de freno ventilados mecánicos de 160 mm con 6 agujeros. Puedes confiar en una frenada potente y precisa en cualquier situación.Ya sea que estés explorando caminos rurales o buscando nuevas rutas, esta bicicleta de gravel Raleigh es tu compañera ideal. Descubre la libertad de las dos ruedas con estilo y rendimiento incomparables. ¡Atrévete a adentrarte en el mundo del gravel con esta hermosa bicicleta!",
-        "mainImg": "Bici de Gravel Raleigh GR 1.5.jpg"
+        "mainImg": "Bici-Gravel-Raleigh.jpg"
     },
     {
         "id": 4,

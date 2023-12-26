@@ -6,7 +6,7 @@ const router = express.Router();
 
 router.get('/agregar', add);
 router.get('/editar', edit);
-router.get('/productDetail',detail)
+router.get('/product-detail/:id',detail)
 
 
 module.exports = router;
