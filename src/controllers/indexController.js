@@ -11,6 +11,7 @@ module.exports = {
 
       return res.render('index', {
         productsBici : products.filter(product=> product.categoria === "bicicletas"),
+        productsEquipa : products.filter(product=> product.categoria === "Equipamiento"),
         products,
         toThousand
       })

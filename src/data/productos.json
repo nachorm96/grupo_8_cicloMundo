@@ -21,10 +21,10 @@
         "rodado": [20],
         "color": ["azul y negro"],
         "precio": 3800520,
-        "categoria": "bici",
+        "categoria": "bicicletas",
         "descripcion": "La GIANT XTC ADVANCED 29  2 2022 es una verdadera maquina de competición, esta bici ha sido actualizada para satisfacer las necesidades del xc moderno. Y sea que estés buscando un modelo de XC para una conducción agresiva en XCO o una rígida ultraligera para maratón de XC,FACTORES CLAVES DE RENDIMIENTOLIGERO Y RECEPTIVO,Un cuadro hecho a mano de material compuesto de grado avanzado ofrece a los corredores y ciclistas de XC una ventaja competitiva para escalar, acelerar y correr.FLEXIBILIDAD Y CONFORT El cuadro está diseñado con una alta relación rigidez-peso, lo que se traduce en una potencia de pedaleo eficiente y un manejo preciso en los senderos. CUMPLIMIENTO PERSONALIZADO.Cada cuadro se ajusta de forma personalizada en función de su tamaño. Se crean programas de disposición compuestos individuales para optimizar el cumplimiento vertical y producir una calidad de conducción más suave en terreno XC.",
         "mainImg": [
-            "GIANT-XTC-ADVANCED-3-GU.webp"
+            "GIANT-XTC-ADVANCED-3-GU.jpg"
         ]
     },
     {
@@ -33,7 +33,7 @@
         "rodado": [1.5],
         "color": ["verde"],
         "precio": 955098,
-        "categoria": "bici",
+        "categoria": "bicicletas",
         "descripcion": "¿Estás listo para aventuras todoterreno emocionantes? Bicicleta de gravel Raleigh con cuadro de aluminio es la elección perfecta. Equipada con un sistema de cambios Ltwo monoplato de 11 velocidades y un amplio piñón 11/46, esta bicicleta te lleva a donde quieras, sin importar el terreno.Discos de freno ventilados mecánicos de 160 mm con 6 agujeros. Puedes confiar en una frenada potente y precisa en cualquier situación.Ya sea que estés explorando caminos rurales o buscando nuevas rutas, esta bicicleta de gravel Raleigh es tu compañera ideal. Descubre la libertad de las dos ruedas con estilo y rendimiento incomparables. ¡Atrévete a adentrarte en el mundo del gravel con esta hermosa bicicleta!",
         "mainImg": [
             "Bici-Gravel-Raleigh.jpg"
@@ -48,19 +48,19 @@
         "categoria": "bicicletas",
         "descripcion": "La bicicleta MTB Raleigh Mojave 4.5 es una bicicleta de montaña diseñada para brindar rendimiento y resistencia en terrenos difíciles. Estas son las características principales de la bicicleta:Asiento MTB Antiprostático DDK: El asiento está diseñado para brindar comodidad y reducir la presión en la zona genital durante los recorridos en bicicleta.Collar de cierre de aluminio 32mm-Raleigh: El collar de cierre de aluminio proporciona una sujeción segura del cuadro y el tubo del asiento.",
         "mainImg": [
-            "Raleigh Mojave 4.5 Rod 29.webp"
+            "Raleigh-Mojave-4.5-Rod-29.jpg"
         ]    
     },
     {
         "id": 5,
         "nombre": "Raleigh Scout Disc R24 Dama",
-        "rodado": [20],
+        "rodado": [24],
         "color": ["Blanco"],
         "precio": 748323,
         "categoria": "bicicletas",
         "descripcion": "Pedales MTB de AluminioCuadro mtb r24 aluminio par de ruedas r24 - Scout / Raleigh Cambio shimano rd-tz400-21vDescarrilador Shimano fd-tx50Manija integrada Shimano st-ef500-3vPiñon Shimano mf-tz21-7vPlato y palanca Shimano Set de freno a disco mecanico horquilla c/suspension r24Caja pedalera shimano",
         "mainImg": [
-            "Raleigh Mojave 4.0 Rod 24.webp"
+            "Raleigh-Scout-Disc-R24-Dama.jpg"
         ]        
     },
     {
@@ -198,7 +198,7 @@
     {
         "id": 17,
         "nombre": "Glangeh Luz Recargable",
-        "rodado": null,
+        "rodado": ["..."],
         "color": ["negro"],
         "precio": 70599,
         "categoria": "Equipamiento",
@@ -210,7 +210,7 @@
     {
         "id": 18,
         "nombre": "Casco Bicicleta Skate",
-        "rodado": null,
+        "rodado": ["..."],
         "color": ["negro azul"],
         "precio": 18650,
         "categoria": "Equipamiento",
@@ -222,7 +222,7 @@
     {
         "id": 19,
         "nombre": "Claxon moderlo bicicleta",
-        "rodado": null,
+        "rodado": ["..."],
         "color": ["gris"],
         "precio": 329000,
         "categoria": "Equipamiento",
@@ -234,7 +234,7 @@
     {
         "id": 20,
         "nombre": "Ajustador rayos",
-        "rodado": null,
+        "rodado": ["..."],
         "color": ["azul"],
         "precio": 10500,
         "categoria": "Equipamiento",
@@ -246,19 +246,19 @@
     {
         "id": 21,
         "nombre": "Asiento Sport Antiprostatico Vzr",
-        "rodado": null,
+        "rodado": ["..."],
         "color": ["negro"],
         "precio": 13500,
         "categoria": "Equipamiento",
         "descripcion":  "- Asiento de alta calidad y resistencia.Diseño ergonómico centrado en la comodidad del usuario para viajes de larga duración.Acolchado con espuma viscoelástica de alta densidad y espesa, la superficie del cojín del sillín de la bicicleta es antideslizante y resistente al desgaste, duradera, buena elasticidad y muy suave, protege mejor el cuerpo gracias a sus consideraciones antropométricas y biomecánicas.Fácil de instalar en la mayoría de las bicicletas gracias a su sistema mecánico de instalación sencillo e intuitivo.",
         "mainImg": [
-            "Asiento Sport Antiprostatico Vzr.webp"
+            "Asiento-Sport-Antiprostatico-Vzr.jpg"
         ]    
     },
     {
         "id": 22,
         "nombre": "Candado + inflador de mano",
-        "rodado": null,
+        "rodado": ["..."],
         "color": ["negro"],
         "precio": 259599,
         "categoria": "Equipamiento",
@@ -282,7 +282,7 @@
     {
         "id": 24,
         "nombre": "Pedal MTB con traba",
-        "rodado": null,
+        "rodado": ["..."],
         "color": ["gris"],
         "precio": 67600,
         "categoria": "Equipamiento",
@@ -306,7 +306,7 @@
     {
         "id": 26,
         "nombre": "Lentes de Sol Ciclismo Shimano Technium Unisex",
-        "rodado": null,
+        "rodado": ["..."],
         "color": ["azul"],
         "precio": 71899,
         "categoria": "Equipamiento",
@@ -324,7 +324,7 @@
         "categoria": "Equipamiento",
         "descripcion":  "Sumá practicidad y confort a tu próximo destino con la Mochila Camelbak M.U.L.E. Lr 15 100 Oz. Con un almacenamiento total de 12 litros, podrás llevar todas tus pertenencias de manera cómoda y organizada vayas donde vayas. El panel trasero Air Director™ y el arnés ventilado alejan el sudor de tu cuerpo y mantienen tu piel fresca para que las altas temperaturas no te detengan. Además, el diseño lumbar proporciona máxima estabilidad en los senderos más arriesgados y asegura un ajuste personalizado. Como si fuera poco, los bolsillos con cierre garantizan máxima protección y organización para que transportes cómodamente tus objetos personales. Comenzá a planear tu próximo viaje y no te olvides de llevar con vos esta mochila de alto rendimiento a donde vayas.",
         "mainImg": [
-            "Mochila Camelbak M.U.L.E. Lr 15 100 Oz.jfif"
+            "Mochila  Camelbak M.U.L.E. Lr 15 100 Oz.jfif"
         ]    
     },
     {
@@ -342,7 +342,7 @@
     {
         "id": 29,
         "nombre": "Plato y Palanca Bicicleta Shimano Mt210 9v 175mm",
-        "rodado": null,
+        "rodado": ["..."],
         "color": ["negro"],
         "precio": 37500,
         "categoria": "Equipamiento",
@@ -354,13 +354,13 @@
     {
         "id": 30,
         "nombre": "Set Ruedas Bicicleta Shimano Mt600 100/142mm",
-        "rodado": null,
+        "rodado": ["..."],
         "color": ["negra"],
         "precio": 254200,
         "categoria": "Equipamiento",
         "descripcion":  "El Set Shimano Ruedas Mt600 100/142mm cuenta con neumáticos con 24 rayos de acero inoxidable de doble cronificado que aseguran tu estabilidad. Robustas y confiables, poseen un soporte de freno de disco Centerlock y E-Thru estándar que garantizan un manejo sencillo y cómodo. Los bujes cuentan con sellos de contacto y laberinto de alta calidad, así como rodamientos cónicos que brindan un rodamiento suave y un mejor rendimiento. Disfrutá de tu andar con productos de calidad.",
         "mainImg": [
-            "Set Ruedas Bicicleta Shimano Mt600 100/142mm.jfif"
+            "Set Ruedas Bicicleta Shimano Mt600 100-142mm.jfif"
         ]    
     }
 ]

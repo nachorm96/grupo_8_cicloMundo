@@ -38,8 +38,14 @@
 
 
 
-                <!-- <h2 class="home__titulos">Acompaña tu compra</h2>
-                <section class="home__main__section--productos">
+                <h2 class="home__titulos">Acompaña tu compra</h2>
+                <article class="home__section__article--producto">
+                    <% productsEquipa.forEach(product => { %>
+                        <%- include('./partials/product-card', {product}) %>
+                    <% }) %>
+                    </article>
+                </section>
+            <!--<section class="home__main__section--productos">
                     <article class="home__section__article--producto">
                         <a href="/productDetail">
                         <img src="/images/1523883443_639903_1523884200_sumario_normal.jpg" alt="">
