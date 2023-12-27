@@ -18,7 +18,7 @@
             <div class="producto__descripcion">
                 <h3><%= product.nombre %></h3>
                 <p>20% con tarjeta bbva <i class="fa-solid fa-credit-card"></i></p>
-                <h4>$<%= product.precio %></h4>
+                <h4>$<%= toThousand(product.precio) %></h4>
             </div>
             </a>
 

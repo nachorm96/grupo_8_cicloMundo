@@ -13,7 +13,7 @@
 <main class="product-add__main">
     <h2>Nuevo producto</h2>
     <section class="products__section">
-        <form class="products__form" action="">
+        <form class="products__form" method="POST" enctype="multipart/form-data">
             <div class="products__form__box">
                 <label class="products__form__box__label" for="name">Nombre del producto</label>
                 <input class="products__form__box__input" id="name" name="name" type="text">
@@ -24,7 +24,7 @@
             </div>
             <div class="products__form__box">
                 <label class="products__form__box__label" for="image">Agregar imagen</label>
-                <input class="products__form__box__input" id="image" type="file" accept="image/*">
+                <input class="products__form__box__input" id="image" type="file" name="img-porduct" accept="image/*">
             </div>
             <div class="products__form__box">
                 <label class="products__form__box__label" for="category">Categoría</label>
