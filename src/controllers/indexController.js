@@ -10,7 +10,7 @@ module.exports = {
     index : (req,res)=> {
 
       return res.render('index', {
-        productsBici : products.filter(product=> product.categoria === "bicicletas"),
+        productsBici : products.filter(product=> product.categoria === "Bicicletas"),
         productsEquipa : products.filter(product=> product.categoria === "Equipamiento"),
         products,
         toThousand
