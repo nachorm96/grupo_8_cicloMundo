@@ -20,6 +20,9 @@ module.exports = {
       return res.render('productCart')
     },
     admin : (req,res) => {
-      return res.render('dashboard')
+      return res.render('dashboard', {
+        products,
+        toThousand
+      })
     },
 }

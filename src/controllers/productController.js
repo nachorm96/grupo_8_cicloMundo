@@ -38,7 +38,7 @@ module.exports = {
 
         fs.writeFileSync(productsFilePath,JSON.stringify(products),'utf-8')
 
-        res.redirect('/');
+        res.redirect('/admin');
     },
     edit : (req, res) => {
         return res.render('products/product-edit')

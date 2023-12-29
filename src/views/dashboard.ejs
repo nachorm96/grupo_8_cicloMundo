@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -10,7 +10,7 @@
 </head>
 <body>
   
-  <%- include('./partials/headerAdmin')  %>
+
 
     <main class="main__dashboard">
         <section class="section__dashboard">
@@ -73,6 +73,74 @@
                 </tr>
             </tbody>
             </table>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/c65f2f1cc8.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="/stylesheets/dashboard.css">
+  <title>Dashboard</title>
+</head>
+<body>
+  
+  <%- include('./partials/headerAdmin')  %>
+
+    <main class="main__dashboard">
+        <section class="section__dashboard">
+          
+            <table class="tabla__dashboard">
+            <thead>
+              <tr >
+                <th class="border-end-0" colspan="6">Bicicletas&Equipamiento</th>
+                <th colspan="1"  class="border-start-0">
+                    <a href="/products/agregar" type="button" class="btn btn-info dashboard__nuevo">Nuevo</a>
+                </th>
+              </tr>
+            
+                <tr>
+                <th>#</th>
+                <th>Nombre</th>
+                <th>Precio</th>
+                <th>Color</th>
+                <th>Rodado</th>
+                <th>Categoria</th>
+                <th>Panel</th>
+                </tr>
+            </thead>
+            <tbody>
+              <% products.forEach(({id,nombre,precio,categoria,rodado,color},index)=>
+                { %>
+                <tr>
+                  <td><%= index + 1 %></td>
+                  <td><%= nombre %></td>
+                  <td><%= toThousand(precio) %></td>
+                  <td><%= color %></td>
+                  <td><%= rodado %></td>
+                  <td><%= categoria %></td>
+                  <td class="panel">
+                    <a class="btn btn-sm btn-outline-danger border-none"
+                      href="#"><i 
+                        class="fa-solid fa-eye"></i></a>
+                    <a class="btn btn-sm btn-outline-success border-none"
+                        href="#"><i
+                            class="fa-solid fa-pencil"></i></a>
+                    <a class="btn btn-sm btn-outline-danger border-none"
+                        href="#"><i
+                            class="fa-solid fa-trash"></i></a>
+                  </td>
+              <% }) %>
+            </tbody>
+            </table>
+          
         </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
