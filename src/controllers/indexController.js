@@ -6,6 +6,14 @@ indexController.renderIndex = (req, res) => {
 
 module.exports = indexController; */
 
+const {existsSync, unlinkSync} = require('fs')
+const fs = require('fs');
+const path = require('path');
+
+const productsFilePath = path.join(__dirname, '../data/productos.json');
+const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
+const toThousand = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+
 
 module.exports = {
     index : (req,res)=> {
@@ -15,6 +23,9 @@ module.exports = {
       return res.render('productCart')
     },
     admin : (req,res) => {
-      return res.render('dashboard')
+      return res.render('dashboard', {
+        products,
+        toThousand
+      })
     },
 }

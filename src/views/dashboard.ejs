@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -14,17 +15,18 @@
 
     <main class="main__dashboard">
         <section class="section__dashboard">
+          
             <table class="tabla__dashboard">
             <thead>
               <tr >
                 <th class="border-end-0" colspan="6">Bicicletas&Equipamiento</th>
                 <th colspan="1"  class="border-start-0">
-                    <button  type="button" class="btn btn-info dashboard__nuevo">Nuevo</button>
+                    <a href="/products/agregar" type="button" class="btn btn-info dashboard__nuevo">Nuevo</a>
                 </th>
-            </tr>
-                </tr>
+              </tr>
+            
                 <tr>
-                <th>ID</th>
+                <th>#</th>
                 <th>Nombre</th>
                 <th>Precio</th>
                 <th>Color</th>
@@ -34,45 +36,30 @@
                 </tr>
             </thead>
             <tbody>
+              <% products.forEach(({id,nombre,precio,categoria,rodado,color},index)=>
+                { %>
                 <tr>
-                  <td>1</td>
-                  <td>Giant XTC Advanced SL 29</td>
-                  <td>$5.000.000</td>
-                  <td>Negra</td>
-                  <td>29</td>
-                  <td>Montaña</td>
+                  <td><%= index + 1 %></td>
+                  <td><%= nombre %></td>
+                  <td><%= toThousand(precio) %></td>
+                  <td><%= color %></td>
+                  <td><%= rodado %></td>
+                  <td><%= categoria %></td>
                   <td class="panel">
                     <a class="btn btn-sm btn-outline-danger border-none"
                       href="#"><i 
                         class="fa-solid fa-eye"></i></a>
                     <a class="btn btn-sm btn-outline-success border-none"
-                        href="#"><i
+                        href="/products/editar"><i
                             class="fa-solid fa-pencil"></i></a>
                     <a class="btn btn-sm btn-outline-danger border-none"
                         href="#"><i
                             class="fa-solid fa-trash"></i></a>
                   </td>
-                </tr>
-                <tr>
-                <td>2</td>
-                <td>Dato 2</td>
-                <td>Dato B</td>
-                <td>200</td>
-                <td>Texto Y</td>
-                <td>Falso</td>
-                <td>20.3</td>
-                </tr>
-                <tr>
-                <td>3</td>
-                <td>Dato 3</td>
-                <td>Dato C</td>
-                <td>300</td>
-                <td>Texto Z</td>
-                <td>Verdadero</td>
-                <td>15.8</td>
-                </tr>
+              <% }) %>
             </tbody>
             </table>
+          
         </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
