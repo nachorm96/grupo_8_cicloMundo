@@ -36,6 +36,9 @@
                     <% productos.forEach(product => { %>
                         <li><%= product.nombre %>: <%= product.precio %></li>
                       <% }); %>
+                    <% productsBici.forEach(product => { %>
+                        <%- include('./partials/product-card', {product}) %>
+                    <% }) %>
                     </article>
                 </section>
 

@@ -8,9 +8,6 @@ router.get('/dashboard', (req, res) => {
 
 router.post('/dashboard/delete/:productId', (req, res) => {
   const productId = req.params.productId;
-  // Lógica para eliminar el producto con productId de la fuente de datos (productsData)
-  // Puedes utilizar array.filter() u otras técnicas según tu estructura de datos
-  // Guarda la fuente de datos actualizada
 
   res.redirect('/dashboard');
 });

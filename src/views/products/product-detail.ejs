@@ -2,7 +2,7 @@
 <html lang="en">
 
 <%- include('../partials/head',{
-	title : 'Detalle del producto'
+	title : 'Detalle del producto ' + nombre
 }) %>
 <%- include('../partials/header')  %>
 
@@ -14,16 +14,16 @@
         <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <img src="/images/22xtcadvancedsl291.png" />
+              <img src="/images/productos/<%= mainImg[0] || 'Producto-sin-imagen.jpg'%>" />
             </div>
             <div class="swiper-slide">
-              <img src="/images/Giant_XTC_Advanced_SL_29_1_01a.jpg" />
+              <img src="/images/productos/<%= mainImg[1] || 'Producto-sin-imagen.jpg'%>" />
             </div>
             <div class="swiper-slide">
-              <img src="/images/GIANT-XTC-ADVANCED-SL-29-1-BIKE-3.jpg" />
+              <img src="/images/productos/<%= mainImg[2] || 'Producto-sin-imagen.jpg'%>" />
             </div>
             <div class="swiper-slide">
-              <img src="/images/xtc_adv_sl_29_showcase_gallery01.jpg" />
+              <img src="/images/productos/<%= mainImg[3] || 'Producto-sin-imagen.jpg'%>" />
             </div>
           </div>
           <div class="swiper-button-next"></div>
@@ -32,34 +32,35 @@
         <div thumbsSlider="" class="swiper mySwiper banner__product__detail">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <img src="/images/22xtcadvancedsl291.png" />
+              <img src="/images/productos/<%= mainImg[0] || 'Producto-sin-imagen.jpg'%>" />
             </div>
             <div class="swiper-slide">
-              <img src="/images/Giant_XTC_Advanced_SL_29_1_01a.jpg" />
+              <img src="/images/productos/<%= mainImg[1] || 'Producto-sin-imagen.jpg'%>" />
             </div>
             <div class="swiper-slide">
-              <img src="/images/GIANT-XTC-ADVANCED-SL-29-1-BIKE-3.jpg" />
+              <img src="/images/productos/<%= mainImg[2] || 'Producto-sin-imagen.jpg'%>" />
             </div>
             <div class="swiper-slide">
-              <img src="/images/xtc_adv_sl_29_showcase_gallery01.jpg" />
+              <img src="/images/productos/<%= mainImg[3] || 'Producto-sin-imagen.jpg'%>" />
             </div>
           </div>
         </div>
         <!--  -->
       </article>
       <article class="main__product--descripcion">
-        <h3>Giant XTC ADVANCED SL 29 1</h3>
-        <h2>$5.063.215,00</h2>
-        <p>24 CUOTAS SIN INTERES DE $889.353,71</p>
+        <h1><%= nombre %></h1>
+        <h2>$<%= toThousand(precio) %></h2>
+        <p>
+          24 CUOTAS SIN INTERES DE $<%= toThousand((precio/24).toFixed(0)) %>
+        </p>
         <div class="box__compra">
           <div class="box__pedido">
             <label class="box__pedido--label" for="">Rodado</label>
             <select class="box__pedido--input" name="" id="">
               <option value="">Elige un rodado</option>
-              <option value="">19</option>
-              <option value="">20</option>
-              <option value="">25</option>
-              <option value="">29</option>
+              <% rodado.forEach(rodado => { %>
+                <option value="<%= rodado + 1 %>"><%= rodado %></option>
+              <% }) %>
             </select>
             <!-- <input class="box__pedido--input" type="text"> -->
           </div>
@@ -67,10 +68,11 @@
             <label class="box__pedido--label" for="">Color</label>
             <select class="box__pedido--input" name="" id="">
               <option value="">Elige un color</option>
-              <option value="">Verde</option>
-              <option value="">Rojo</option>
-              <option value="">Azul</option>
-              <option value="">Blanco</option>
+
+              <% color.forEach(color => { %>
+                <option value="<%= color + 1 %>"><%= color %></option>
+              <% }) %>
+
             </select>
             <!-- <input class="box__pedido--input" type="text"> -->
           </div>
@@ -93,71 +95,26 @@
     <h2 class="titulos__producto">Caracteristicas</h2>
     <section class="main__product--section2">
       <article>
-        <h3>Giant XTC ADVANCED SL 29 1</h3>
+        <h3><%= nombre %></h3><br>
         <p>
-          Cuadro Expert Alu 29", 148x12, Integrated Headset<br>
-          Horquilla Rock Shox Judy RL Remote Lock 100mm <br>
-          Potencia BH SL 80mm, 31,8mm, +/-6º<br>
-          Dirección BH SL Integrated Sealed Bearing <br>
-          Manillar BH Lite Flat 780mm<br>
-          Puños BH Lock On <br>
-          Manetas cambio Shimano Deore 6100 12sp
-          Cambio trasero Shimano XT 8100 12sp<br>
-          Pedalier Shimano MT510 , 175mm <br>
-          BB set Shimano<br>
-          Cassette 10-50 <br>
-          Cadena Shimano Deore <br>
-          Freno delantero Shimano MT201 180mm<br>
-          Freno trasero Shimano MT201 160mm <br>
-          Set ruedas BH Lite <br>
-          Cubiertas Maxxis Ikon 2.20/ Continental Race <br>
-          Sillín Prologo Nago RS <br>
-          Cierre sillín Expert 34,9mm <br>
-          Tija BH Lite 31,6mm, 420mm</p><br>
+
+          <%= descripcion %>
+          
+        </p><br>
       </article>
     </section>
     <h2 class="titulos__producto">Productos relacionados</h2>
     <section class="main__product--section3">
+
       <article class="producto__relacionado">
-        <a href="/">
-          <img src="/images/Giant_XTC_Advanced_SL_29_1_01a.jpg" alt="">
-          <div class="producto__descripcion_home">
-            <h3>Giant XTC Advanced SL 29</h3>
-            <p>20% con tarjeta bbva <i class="fa-solid fa-credit-card"></i></p>
-            <h4>$$$</h4>
-          </div>
-        </a>
+      <!-- <article class="home__section__article--producto"> -->
+
+        <% productsBici.forEach(product => { %>
+          <%- include('../partials/product-card', {product}) %>
+        <% }) %>
+
       </article>
-      <article class="producto__relacionado">
-        <a href="/">
-          <img src="/images/xtc_adv_sl_29_showcase_gallery01.jpg" alt="">
-          <div class="producto__descripcion_home">
-            <h3>Giant XTC Advanced SL 29</h3>
-            <p>20% con tarjeta bbva <i class="fa-solid fa-credit-card"></i></p>
-            <h4>$$$</h4>
-          </div>
-        </a>
-      </article>
-      <article class="producto__relacionado">
-        <a href="/">
-          <img src="/images/Giant_XTC_Advanced_SL_29_1_01a.jpg" alt="">
-          <div class="producto__descripcion_home">
-            <h3>Giant XTC Advanced SL 29</h3>
-            <p>20% con tarjeta bbva <i class="fa-solid fa-credit-card"></i></p>
-            <h4>$$$</h4>
-          </div>
-        </a>
-      </article>
-      <article class="producto__relacionado">
-        <a href="/">
-          <img src="/images/xtc_adv_sl_29_showcase_gallery01.jpg" alt="">
-          <div class="producto__descripcion_home">
-            <h3>Giant XTC Advanced SL 29</h3>
-            <p>20% con tarjeta bbva <i class="fa-solid fa-credit-card"></i></p>
-            <h4>$$$</h4>
-          </div>
-        </a>
-      </article>
+
     </section>
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
