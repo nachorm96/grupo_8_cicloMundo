@@ -9,7 +9,13 @@ const toThousand = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 
 module.exports = {
     detail : (req,res)=> {
-        return res.render('products/productDetail')
+        const product=products.find(product=>product.id === +req.params.id)
+        return res.render('products/product-detail',{
+            productsBici : products.filter(product=> product.precio < +100000),
+            products,
+            ...product,
+            toThousand
+        })
     },
     add : (req, res) => {
         return res.render('products/product-add')
