@@ -133,10 +133,13 @@
                     <a class="btn btn-sm btn-outline-success border-none"
                         href="/products/editar"><i
                             class="fa-solid fa-pencil"></i></a>
-                    <a class="btn btn-sm btn-outline-danger border-none"
-                        href="#"><i
-                            class="fa-solid fa-trash"></i></a>
-                  </td>
+                            <form action="/productos/eliminar/<%= id %>" method="POST">
+                             <button type="submit" class="btn btn-sm btn-outline-danger border-none">
+                              <i class="fa-solid fa-trash"></i>
+                            </button>
+                            </form>
+                        </td>
+                  </tr>
               <% }) %>
             </tbody>
             </table>

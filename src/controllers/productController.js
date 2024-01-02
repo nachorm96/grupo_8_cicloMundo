@@ -42,5 +42,8 @@ module.exports = {
     },
     edit : (req, res) => {
         return res.render('products/product-edit')
+    },
+    remove : (req,res) => {
+        return res.render('products/product-delete')
     }
 }
