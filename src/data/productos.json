@@ -1,366 +1,308 @@
 [
-    {
-        "id": 1,
-        "nombre": "Giant XTC Advanced SL 29",
-        "rodado": [19,20,22,29],
-        "color": ["azul negra","verde negra,"],
-        "precio": 5000000,
-        "categoria": "bicicletas",
-        "descripcion": "Cuadro de carbono Composite Advanced SL El XTC Advanced SL 29 utiliza nuestra tecnología de carbono Composite Advanced SL más avanzada. Totalmente ensamblado a mano en nuestra propia fábrica, su cuadro utiliza una trama de carbono tejida in situ, una resina de carbono con micropartículas para mejorar la resistencia al impacto y un proceso único de ensamblaje por fusión, para uniones más ligeras y resistentes.Geometría XC moderna Una geometría inspirada en el XC moderno que favorece la velocidad y el rendimiento. El diseño del cuadro y la colocación con criterio de las fibras de carbono permiten ofrecer un comportamiento idéntico en todos las tallas del cuadro.Ruedas de 29 pulgadas,Las ruedas de 29 pulgadas proporcionan un mejor rendimiento, favorecen el equilibrio y la estabilidad de la bicicleta. Te darán el poder de conducir a toda velocidad.",
-        "mainImg": [
-            "Giant_XTC_Advanced_SL.jpg",
-            "SLP E-Bike MTB EM-1.jpg",
-            "SLP 5 Woman R29 2023.jpg",
-            "SLP-COMET-NEBL-.jpg",
-            "SLP Touring Varón R28.jpg"
-        ]
-    },
-    {
-        "id": 2,
-        "nombre": "GIANT XTC ADVANCED 3 GU",
-        "rodado": [20],
-        "color": ["azul y negro"],
-        "precio": 3800520,
-        "categoria": "bicicletas",
-        "descripcion": "La GIANT XTC ADVANCED 29  2 2022 es una verdadera maquina de competición, esta bici ha sido actualizada para satisfacer las necesidades del xc moderno. Y sea que estés buscando un modelo de XC para una conducción agresiva en XCO o una rígida ultraligera para maratón de XC,FACTORES CLAVES DE RENDIMIENTOLIGERO Y RECEPTIVO,Un cuadro hecho a mano de material compuesto de grado avanzado ofrece a los corredores y ciclistas de XC una ventaja competitiva para escalar, acelerar y correr.FLEXIBILIDAD Y CONFORT El cuadro está diseñado con una alta relación rigidez-peso, lo que se traduce en una potencia de pedaleo eficiente y un manejo preciso en los senderos. CUMPLIMIENTO PERSONALIZADO.Cada cuadro se ajusta de forma personalizada en función de su tamaño. Se crean programas de disposición compuestos individuales para optimizar el cumplimiento vertical y producir una calidad de conducción más suave en terreno XC.",
-        "mainImg": [
-            "GIANT-XTC-ADVANCED-3-GU.jpg"
-        ]
-    },
-    {
-        "id": 3,
-        "nombre": "Bici de Gravel Raleigh GR 1.5",
-        "rodado": [1.5],
-        "color": ["verde"],
-        "precio": 955098,
-        "categoria": "bicicletas",
-        "descripcion": "¿Estás listo para aventuras todoterreno emocionantes? Bicicleta de gravel Raleigh con cuadro de aluminio es la elección perfecta. Equipada con un sistema de cambios Ltwo monoplato de 11 velocidades y un amplio piñón 11/46, esta bicicleta te lleva a donde quieras, sin importar el terreno.Discos de freno ventilados mecánicos de 160 mm con 6 agujeros. Puedes confiar en una frenada potente y precisa en cualquier situación.Ya sea que estés explorando caminos rurales o buscando nuevas rutas, esta bicicleta de gravel Raleigh es tu compañera ideal. Descubre la libertad de las dos ruedas con estilo y rendimiento incomparables. ¡Atrévete a adentrarte en el mundo del gravel con esta hermosa bicicleta!",
-        "mainImg": [
-            "Bici-Gravel-Raleigh.jpg"
-        ]
-    },
-    {
-        "id": 4,
-        "nombre": "Raleigh Mojave 4.5 Rod 29",
-        "rodado": [29],
-        "color": ["Negra"],
-        "precio": 748323,
-        "categoria": "bicicletas",
-        "descripcion": "La bicicleta MTB Raleigh Mojave 4.5 es una bicicleta de montaña diseñada para brindar rendimiento y resistencia en terrenos difíciles. Estas son las características principales de la bicicleta:Asiento MTB Antiprostático DDK: El asiento está diseñado para brindar comodidad y reducir la presión en la zona genital durante los recorridos en bicicleta.Collar de cierre de aluminio 32mm-Raleigh: El collar de cierre de aluminio proporciona una sujeción segura del cuadro y el tubo del asiento.",
-        "mainImg": [
-            "Raleigh-Mojave-4.5-Rod-29.jpg"
-        ]    
-    },
-    {
-        "id": 5,
-        "nombre": "Raleigh Scout Disc R24 Dama",
-        "rodado": [24],
-        "color": ["Blanco"],
-        "precio": 748323,
-        "categoria": "bicicletas",
-        "descripcion": "Pedales MTB de AluminioCuadro mtb r24 aluminio par de ruedas r24 - Scout / Raleigh Cambio shimano rd-tz400-21vDescarrilador Shimano fd-tx50Manija integrada Shimano st-ef500-3vPiñon Shimano mf-tz21-7vPlato y palanca Shimano Set de freno a disco mecanico horquilla c/suspension r24Caja pedalera shimano",
-        "mainImg": [
-            "Raleigh-Scout-Disc-R24-Dama.jpg"
-        ]        
-    },
-    {
-        "id": 6,
-        "nombre": "SLP Comet 2023",
-        "rodado": [18],
-        "color": ["Azul blanco"],
-        "precio": 1555080,
-        "categoria": "bicicletas",
-        "descripcion":  "La SLP COMET es una elección fantástica como primera bicicleta de carretera. El cuadro es ligero y estable, y ofrece una gran capacidad de respuesta para que puedas disfrutar con total seguridad de todas tus recorridos en bici. Además, está fabricada con componentes fiables y su diseño está centrado en el confort hace que cada salida sea más divertida que la anterior.",
-        "mainImg": [
-            "SLP-COMET-NEBL-.jpg"
-        ]
-    },
-    {
-        "id": 7,
-        "nombre": "SLP Gravel R28",
-        "rodado": [28],
-        "color": ["Negrao rojo"],
-        "precio": 1347609,
-        "categoria": "bicicletas",
-        "descripcion":  "La bicicleta SLP GRAVEL puede utilizarse casi en cualquier parte; en la ruta o fuera de ella. Las características enfocadas para la aventura, como los frenos de disco, el aumento de la claridad del paso de rueda para cubiertas más anchas y la geometría confortable, permiten que se adapte a cualquier circunstancia, desde terrenos abruptos, hasta salidas invernales.",
-        "mainImg": [
-            "SLP Gravel R28.jpg"
-        ]    
-    },
-    {
-        "id": 8,
-        "nombre": "SLP 10 Pro R29",
-        "rodado": [26],
-        "color": ["Negra blanco"],
-        "precio": 317054,
-        "categoria": "bicicletas",
-        "descripcion":  "Descubre la potente bicicleta SLP 10 PRO rodado 29. Su ligero cuadro de aluminio, frenos a disco y equipamiento Shimano ofrecen un rendimiento excepcional. Prepárate para conquistar nuevos desafíos y disfrutar de una experiencia de conducción sin igual.",
-        "mainImg": [
-            "SLP 10 Pro R29.jpg"
-        ]    
-    },
-    {
-        "id": 9,
-        "nombre": "SLP 5 Woman R29 2023",
-        "rodado": [21],
-        "color": ["Negro rosa"],
-        "precio": 267925,
-        "categoria": "bicicletas",
-        "descripcion":  "La bicicleta SLP 5 Woman es ideal para aquellas personas que recién se inician en el ciclismo como forma de ocio o que buscan una bici práctica y equipada para desplazarse por la ciudad. Excelente relación precio/calidad. Su caño principal hacia abajo hace que sea mucho más cómoda para montarla y genera mayor seguridad.",
-        "mainImg": [
-            "SLP 5 Woman R29 2023.jpg"
-        ]
-    },
-    {
-        "id": 10,
-        "nombre": "SLP Touring Dama R28",
-        "rodado": [28],
-        "color": ["Blanca"],
-        "precio": 471963,
-        "categoria": "bicicletas",
-        "descripcion":  "La SLP TOURING es una bicicleta híbrida elegante y versátil equipada con todos los accesorios que necesitas para salir a pedalear. Los guardabarros y el porta paquete trasero incluidos la convierten en la elección ideal para moverse por la ciudad, y los potentes frenos a disco y la transmisión Shimano de 21v aportan velocidad y seguridad.",
-        "mainImg": [
-            "SLP Touring Dama R28.jpg"
-        ]    
-    },
-    {
-        "id": 11,
-        "nombre": "SLP Touring Varón R28",
-        "rodado": [28],
-        "color": ["Negra"],
-        "precio": 471963,
-        "categoria": "bicicletas",
-        "descripcion":  "La SLP TOURING es una bicicleta híbrida elegante y versátil equipada con todos los accesorios que necesitas para salir a pedalear. Los guardabarros y el porta paquete trasero incluidos la convierten en la elección ideal para moverse por la ciudad, y los potentes frenos a disco y la transmisión Shimano de 21v aportan velocidad y seguridad.",
-        "mainImg": [
-            "SLP Touring Varón R28.jpg"
-        ]    
-    },
-    {
-        "id": 12,
-        "nombre": "SLP Plegable F-100",
-        "rodado": [20],
-        "color": ["blanca"],
-        "precio": 490475,
-        "categoria": "bicicletas",
-        "descripcion":  "La SLP Plegable F-100 es una bicicleta plegable muy versátil y de poco mantenimiento. Está diseñada a partir de una transmisión de 7 velocidades. Es una bici súper adaptable y rueda con seguridad sobre la ciudad.",
-        "mainImg": [
-            "SLP Plegable F-100.jpg"
-        ]    
-    },
-    {
-        "id": 13,
-        "nombre": "SLP E-Bike MTB EM-1",
-        "rodado": [29],
-        "color": ["negra"],
-        "precio": 1638891,
-        "categoria": "bicicletas",
-        "descripcion":  "Conocé nuestra bicicleta MTB SLP E-BIKE EM-1 que te brinda asistencia en tu pedaleo, un híbrido para hacer tu andar mucho más simple.Es una bicicleta pensada tanto para trasladarse en la ciudad como para hacer ejercicio al aire libre. Un vehículo práctico para tu traslado con cero emisiones.",
-        "mainImg": [
-            "SLP E-Bike MTB EM-1.jpg"
-        ]    
-    },    
-    {
-        "id": 14,
-        "nombre": "SLP E-Bike MTB EM-2",
-        "rodado": [29],
-        "color": ["amarillo"],
-        "precio": 1859941,
-        "categoria": "bicicletas",
-        "descripcion":  "La bicicleta E-BIKE EM-2 es nuestra MTB con asistencia eléctrica pensada para todo tipo de aventuras. Te permite recorrer terrenos mucho más complejos y realizar recorridos más largos sin tanto desgaste físico.La mejor parte: desde el punto de vista ambiental son inofensivas, ya que no contaminan, no generan ruido ni emisiones./VELOCIDAD MÁXIMA: 25km/h/AUTONOMÍA DE BATERÍA: 40km/TIEMPO DE CARGA: 5-6HS/POTENCIA: 240W – 36V",
-        "mainImg": [
-            "SLP E-Bike MTB EM-2.jpg"
-        ]    
-    },
-    {
-        "id": 15,
-        "nombre": "Bicicleta Vairo Xr 8.0 R29",
-        "rodado": [29],
-        "color": ["negra rojo"],
-        "precio": 965699,
-        "categoria": "bicicletas",
-        "descripcion":  "Con la bicicleta Vairo Xr 8.0 D 29 tu viaje se va a otro nivel. Está fabricada con las mejores tecnologías para su óptimo rendimiento. El aluminio de su cuadro, está formado a altas presiones de líquido, reforzando el metal con un espesor de pared doble o triple. Se trata de una bicicleta liviana y ágil para convertirse en tu compañera ideal. Sumá aventuras con esta Bici hecha para vos.",
-        "mainImg": [
-            "Bicicleta Vairo Xr 8.0 R29.jpg"
-        ]    
-    },    
-    {
-        "id": 16,
-        "nombre": "Bicicleta Teknial Tarpan 100Er R29",
-        "rodado": [29],
-        "color": ["amarillo"],
-        "precio": 259599,
-        "categoria": "bicicletas",
-        "descripcion":  "No importa cuál sea el terreno, la Bicicleta Teknial Tarpan 100Er será tu aliada tanto en la rutina como en aventuras. Te brinda eficiencia, seguridad y carácter deportivo gracias a su freno de disco mecánico y su disposición para una postura de conducción cómoda. El cuadro de 29 de aluminio y sus llantas de aluminio de doble pared 32H, la vuelven un transporte súper duradero listo para sumarse al Mountain Bike. Sin dudas, ¡está hecha para que elijas tu camino!",
-        "mainImg": [
-            "Bicicleta Teknial Tarpan 100Er R29.jpg"
-        ]    
-    },
-    {
-        "id": 17,
-        "nombre": "Glangeh Luz Recargable",
-        "rodado": ["..."],
-        "color": ["negro"],
-        "precio": 70599,
-        "categoria": "Equipamiento",
-        "descripcion":  "Diseño Ultrafino y Portátil: Este juego de luz bicicleta 2023, presenta un diseño elegante y compacto, con un grosor de sólo 1,7 cm y un peso de 27 g. No ocupará demasiado espacio en su bicicleta. El factor de forma delgada, le permite meterla en cualquier bolsillo del pecho o los pantalones vaqueros con facilidad, por lo que es ideal para actividades al aire libre, acampar o viajar.Recarga Eficiente: Carga completamente tanto el luces bicicleta delantera y trasera de forma simultánea en solo 1-1,5 horas con el cable USB incluido. El diseño del cable 2 en 1 maximiza la comodidad y reduce el tiempo de carga, mientras que el puerto Type-C con protección, proporciona un rendimiento fiable al poder protegerse contra la infiltración de agua de lluvia.",
-        "mainImg": [
-            "Glangeh Luz Recargable.jpg"
-        ]    
-    },
-    {
-        "id": 18,
-        "nombre": "Casco Bicicleta Skate",
-        "rodado": ["..."],
-        "color": ["negro azul"],
-        "precio": 18650,
-        "categoria": "Equipamiento",
-        "descripcion":  "Diseño con visera desmontable: La visera incluida en el modelo puede retirarse según la elección del usuario. En todas las variantes de color la visera es de color negro.Correas para regulación en el mentón: Correas livianas regulables con ajuste en el mentón con hebilla plástica. Con almohadillas internas desmontables para mejorar su fijación.Con aeroventilas para facilitar la respiración del cuero cabelludo.",
-        "mainImg": [
-            "Casco Bicicleta Skate.jpg"
-        ]    
-    },
-    {
-        "id": 19,
-        "nombre": "Claxon moderlo bicicleta",
-        "rodado": ["..."],
-        "color": ["gris"],
-        "precio": 329000,
-        "categoria": "Equipamiento",
-        "descripcion":  "Es muy ligero, ya que solo pesa 33 gr.Su cubierta está elaborada de silicón.A prueba de agua.Utiliza 2 pilas CR2032/3V o CR2025/3V.Recomendado para manubrios con un diámetro mínimo de 17 mm y hasta 23 mm.La pila viene con un plástico, el cual debes retirar para que funcione el claxon",
-        "mainImg": [
-            "Claxon moderlo bicicleta.jpg"
-        ]    
-    },
-    {
-        "id": 20,
-        "nombre": "Ajustador rayos",
-        "rodado": ["..."],
-        "color": ["azul"],
-        "precio": 10500,
-        "categoria": "Equipamiento",
-        "descripcion":  "Adecuado para pezones de radios de 14 g.Ajuste para apretar los radios y corregir la deformación de la llanta.Esta llave para radios es pequeña y ligera.La superficie está tratada con revestimiento de níquel, que no se oxida fácilmente.Goma unida al mango, y tiene un cierto radio, puede ser antideslizante.",
-        "mainImg": [
-            "Ajustador_rayos.jpg"
-        ]    
-    },
-    {
-        "id": 21,
-        "nombre": "Asiento Sport Antiprostatico Vzr",
-        "rodado": ["..."],
-        "color": ["negro"],
-        "precio": 13500,
-        "categoria": "Equipamiento",
-        "descripcion":  "- Asiento de alta calidad y resistencia.Diseño ergonómico centrado en la comodidad del usuario para viajes de larga duración.Acolchado con espuma viscoelástica de alta densidad y espesa, la superficie del cojín del sillín de la bicicleta es antideslizante y resistente al desgaste, duradera, buena elasticidad y muy suave, protege mejor el cuerpo gracias a sus consideraciones antropométricas y biomecánicas.Fácil de instalar en la mayoría de las bicicletas gracias a su sistema mecánico de instalación sencillo e intuitivo.",
-        "mainImg": [
-            "Asiento-Sport-Antiprostatico-Vzr.jpg"
-        ]    
-    },
-    {
-        "id": 22,
-        "nombre": "Candado + inflador de mano",
-        "rodado": ["..."],
-        "color": ["negro"],
-        "precio": 259599,
-        "categoria": "Equipamiento",
-        "descripcion":  "Combo inflador gris para bicicletas de mano + Linga candado para bicicleta cadena pitón llave.",
-        "mainImg": [
-            "Candado + inflador de mano.png"
-        ]    
-    },
-    {
-        "id": 23,
-        "nombre": "Casco HC-43",
-        "rodado": ["M","L"],
-        "color": ["negro"],
-        "precio": 80980,
-        "categoria": "Equipamiento",
-        "descripcion":  "Un casco que además de brindar seguridad certificada tiene 17 canales de ventilación que aseguran mantener fresca la cabeza. Con visera larga y calce cómodo y regulable",
-        "mainImg": [
-            "Casco HC-43.jpg"
-        ]    
-    },
-    {
-        "id": 24,
-        "nombre": "Pedal MTB con traba",
-        "rodado": ["..."],
-        "color": ["gris"],
-        "precio": 67600,
-        "categoria": "Equipamiento",
-        "descripcion":  "Pedal con multipropósito, puedes usarlo en MTB o BMX, te brindará la misma comodidad y libertad para disfrutar de terrenos irregulares o competencias de BMX. EL diseño de estos pedales es tan versátil que te permite practicar dos disciplinas con la misma seguridad.",
-        "mainImg": [
-            "Pedal MTB con traba.jpg"
-        ]    
-    },
-    {
-        "id": 25,
-        "nombre": "Calza Vairo Grom",
-        "rodado": ["M","XL"],
-        "color": ["negro azul"],
-        "precio": 15700,
-        "categoria": "Equipamiento",
-        "descripcion":  "Nadie mejor para saber qué necesitan los ciclistas que Vairo. Es por eso que traen la Calza Vairo Grom, una prenda cómoda y especialmente diseñada para brindarte confort y movilidad a la hora de subir a tu bicicleta.",
-        "mainImg": [
-            "Calza Vairo Grom.jpg"
-        ]    
-    },
-    {
-        "id": 26,
-        "nombre": "Lentes de Sol Ciclismo Shimano Technium Unisex",
-        "rodado": ["..."],
-        "color": ["azul"],
-        "precio": 71899,
-        "categoria": "Equipamiento",
-        "descripcion":  "Los Lentes de Sol Shimano Technium se convertirá en tu compañero ideal al momento de realizar tu deporte favorito. Fabricado con material de poliamida, ofrece máxima durabilidad y resistencia para emplearlo en cualquier ocasión. Cuenta con patillas redondeadas con dibujo antideslizante para mayor seguridad y confort, mientras que el puente nasal reversible incorpora diferente grosor delantero y trasero para un mejor ajuste. Ya sea para protegerte del sol, del polvo o del viento, este accesorio es perfecto para desplazarte con tranquilidad.",
-        "mainImg": [
-            "Lentes de Sol Ciclismo Shimano Technium Unisex.jpg"
-        ]    
-    },
-    {
-        "id": 27,
-        "nombre": "Mochila Camelbak M.U.L.E. Lr 15 100 Oz",
-        "rodado": ["S","M","L","XL"],
-        "color": ["negra"],
-        "precio": 107999,
-        "categoria": "Equipamiento",
-        "descripcion":  "Sumá practicidad y confort a tu próximo destino con la Mochila Camelbak M.U.L.E. Lr 15 100 Oz. Con un almacenamiento total de 12 litros, podrás llevar todas tus pertenencias de manera cómoda y organizada vayas donde vayas. El panel trasero Air Director™ y el arnés ventilado alejan el sudor de tu cuerpo y mantienen tu piel fresca para que las altas temperaturas no te detengan. Además, el diseño lumbar proporciona máxima estabilidad en los senderos más arriesgados y asegura un ajuste personalizado. Como si fuera poco, los bolsillos con cierre garantizan máxima protección y organización para que transportes cómodamente tus objetos personales. Comenzá a planear tu próximo viaje y no te olvides de llevar con vos esta mochila de alto rendimiento a donde vayas.",
-        "mainImg": [
-            "Mochila  Camelbak M.U.L.E. Lr 15 100 Oz.jpg"
-        ]    
-    },
-    {
-        "id": 28,
-        "nombre": "Remera Ciclismo Oakley Icon 2.0 Hombre",
-        "rodado": ["L","XL"],
-        "color": ["negro"],
-        "precio": 104999,
-        "categoria": "Equipamiento",
-        "descripcion":  "Suma a tus carreras una prenda ideal, la Remera Ciclismo Oakley Icon 2.0 Hombre. Confeccionada en poliéster de calidad que te asegura resistencia y durabilidad en cada uso. La exclusiva tela de secado rápido y elástica en cuatro direcciones y el cierre con cremallera YKK y leva de fijación la convierten en la prenda favorita para mejorar tu experiencia de ciclismo.",
-        "mainImg": [
-            "Remera Ciclismo Oakley Icon 2.0 Hombre.jfif"
-        ]    
-    },
-    {
-        "id": 29,
-        "nombre": "Plato y Palanca Bicicleta Shimano Mt210 9v 175mm",
-        "rodado": ["..."],
-        "color": ["negro"],
-        "precio": 37500,
-        "categoria": "Equipamiento",
-        "descripcion":  "El Plato Shimano Palanca Mt210 9v 175mm cuenta con una construcción de 2 piezas compatible con los pedalieres de 24 mm exteriores. El FC-MT210-3 está diseñado para transmisiones de MTB de 3x9 velocidades. Además, lleva platos SG-X y proporciona un cambio preciso y fiable para aquellos apasionados por el ciclismo. El estrecho factor Q o la distancia entren las piernas al pedalear, proporciona máxima comodidad para desplazarte sin intervenciones. Sumá productos de calidad a tu bicicleta.",
-        "mainImg": [
-            "Plato y Palanca Bicicleta Shimano Mt210 9v 175mm.jpg"
-        ]    
-    },
-    {
-        "id": 30,
-        "nombre": "Set Ruedas Bicicleta Shimano Mt600 100/142mm",
-        "rodado": ["..."],
-        "color": ["negra"],
-        "precio": 254200,
-        "categoria": "Equipamiento",
-        "descripcion":  "El Set Shimano Ruedas Mt600 100/142mm cuenta con neumáticos con 24 rayos de acero inoxidable de doble cronificado que aseguran tu estabilidad. Robustas y confiables, poseen un soporte de freno de disco Centerlock y E-Thru estándar que garantizan un manejo sencillo y cómodo. Los bujes cuentan con sellos de contacto y laberinto de alta calidad, así como rodamientos cónicos que brindan un rodamiento suave y un mejor rendimiento. Disfrutá de tu andar con productos de calidad.",
-        "mainImg": [
-            "Set Ruedas Bicicleta Shimano Mt600 100-142mm.jfif"
-        ]    
-    }
+  {
+    "id": 1,
+    "nombre": "Giant XTC Advanced SL 29",
+    "rodado": [19, 20, 22, 29],
+    "color": ["azul negra", "verde negra,"],
+    "precio": 5000000,
+    "categoria": "bicicletas",
+    "descripcion": "Cuadro de carbono Composite Advanced SL El XTC Advanced SL 29 utiliza nuestra tecnología de carbono Composite Advanced SL más avanzada. Totalmente ensamblado a mano en nuestra propia fábrica, su cuadro utiliza una trama de carbono tejida in situ, una resina de carbono con micropartículas para mejorar la resistencia al impacto y un proceso único de ensamblaje por fusión, para uniones más ligeras y resistentes.Geometría XC moderna Una geometría inspirada en el XC moderno que favorece la velocidad y el rendimiento. El diseño del cuadro y la colocación con criterio de las fibras de carbono permiten ofrecer un comportamiento idéntico en todos las tallas del cuadro.Ruedas de 29 pulgadas,Las ruedas de 29 pulgadas proporcionan un mejor rendimiento, favorecen el equilibrio y la estabilidad de la bicicleta. Te darán el poder de conducir a toda velocidad.",
+    "mainImg": [
+      "Giant_XTC_Advanced_SL.jpg",
+      "SLP E-Bike MTB EM-1.jpg",
+      "SLP 5 Woman R29 2023.jpg",
+      "SLP-COMET-NEBL-.jpg",
+      "SLP Touring Varón R28.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "GIANT XTC ADVANCED 3 GU",
+    "rodado": [20],
+    "color": ["azul y negro"],
+    "precio": 3800520,
+    "categoria": "bicicletas",
+    "descripcion": "La GIANT XTC ADVANCED 29  2 2022 es una verdadera maquina de competición, esta bici ha sido actualizada para satisfacer las necesidades del xc moderno. Y sea que estés buscando un modelo de XC para una conducción agresiva en XCO o una rígida ultraligera para maratón de XC,FACTORES CLAVES DE RENDIMIENTOLIGERO Y RECEPTIVO,Un cuadro hecho a mano de material compuesto de grado avanzado ofrece a los corredores y ciclistas de XC una ventaja competitiva para escalar, acelerar y correr.FLEXIBILIDAD Y CONFORT El cuadro está diseñado con una alta relación rigidez-peso, lo que se traduce en una potencia de pedaleo eficiente y un manejo preciso en los senderos. CUMPLIMIENTO PERSONALIZADO.Cada cuadro se ajusta de forma personalizada en función de su tamaño. Se crean programas de disposición compuestos individuales para optimizar el cumplimiento vertical y producir una calidad de conducción más suave en terreno XC.",
+    "mainImg": ["GIANT-XTC-ADVANCED-3-GU.jpg"]
+  },
+  {
+    "id": 3,
+    "nombre": "Bici de Gravel Raleigh GR 1.5",
+    "rodado": [1.5],
+    "color": ["verde"],
+    "precio": 955098,
+    "categoria": "bicicletas",
+    "descripcion": "¿Estás listo para aventuras todoterreno emocionantes? Bicicleta de gravel Raleigh con cuadro de aluminio es la elección perfecta. Equipada con un sistema de cambios Ltwo monoplato de 11 velocidades y un amplio piñón 11/46, esta bicicleta te lleva a donde quieras, sin importar el terreno.Discos de freno ventilados mecánicos de 160 mm con 6 agujeros. Puedes confiar en una frenada potente y precisa en cualquier situación.Ya sea que estés explorando caminos rurales o buscando nuevas rutas, esta bicicleta de gravel Raleigh es tu compañera ideal. Descubre la libertad de las dos ruedas con estilo y rendimiento incomparables. ¡Atrévete a adentrarte en el mundo del gravel con esta hermosa bicicleta!",
+    "mainImg": ["Bici-Gravel-Raleigh.jpg"]
+  },
+  {
+    "id": 4,
+    "nombre": "Raleigh Mojave 4.5 Rod 29",
+    "rodado": [29],
+    "color": ["Negra"],
+    "precio": 748323,
+    "categoria": "bicicletas",
+    "descripcion": "La bicicleta MTB Raleigh Mojave 4.5 es una bicicleta de montaña diseñada para brindar rendimiento y resistencia en terrenos difíciles. Estas son las características principales de la bicicleta:Asiento MTB Antiprostático DDK: El asiento está diseñado para brindar comodidad y reducir la presión en la zona genital durante los recorridos en bicicleta.Collar de cierre de aluminio 32mm-Raleigh: El collar de cierre de aluminio proporciona una sujeción segura del cuadro y el tubo del asiento.",
+    "mainImg": ["Raleigh-Mojave-4.5-Rod-29.jpg"]
+  },
+  {
+    "id": 5,
+    "nombre": "Raleigh Scout Disc R24 Dama",
+    "rodado": [24],
+    "color": ["Blanco"],
+    "precio": 748323,
+    "categoria": "bicicletas",
+    "descripcion": "Pedales MTB de AluminioCuadro mtb r24 aluminio par de ruedas r24 - Scout / Raleigh Cambio shimano rd-tz400-21vDescarrilador Shimano fd-tx50Manija integrada Shimano st-ef500-3vPiñon Shimano mf-tz21-7vPlato y palanca Shimano Set de freno a disco mecanico horquilla c/suspension r24Caja pedalera shimano",
+    "mainImg": ["Raleigh-Scout-Disc-R24-Dama.jpg"]
+  },
+  {
+    "id": 6,
+    "nombre": "SLP Comet 2023",
+    "rodado": [18],
+    "color": ["Azul blanco"],
+    "precio": 1555080,
+    "categoria": "bicicletas",
+    "descripcion": "La SLP COMET es una elección fantástica como primera bicicleta de carretera. El cuadro es ligero y estable, y ofrece una gran capacidad de respuesta para que puedas disfrutar con total seguridad de todas tus recorridos en bici. Además, está fabricada con componentes fiables y su diseño está centrado en el confort hace que cada salida sea más divertida que la anterior.",
+    "mainImg": ["SLP-COMET-NEBL-.jpg"]
+  },
+  {
+    "id": 7,
+    "nombre": "SLP Gravel R28",
+    "rodado": [28],
+    "color": ["Negrao rojo"],
+    "precio": 1347609,
+    "categoria": "bicicletas",
+    "descripcion": "La bicicleta SLP GRAVEL puede utilizarse casi en cualquier parte; en la ruta o fuera de ella. Las características enfocadas para la aventura, como los frenos de disco, el aumento de la claridad del paso de rueda para cubiertas más anchas y la geometría confortable, permiten que se adapte a cualquier circunstancia, desde terrenos abruptos, hasta salidas invernales.",
+    "mainImg": ["SLP Gravel R28.jpg"]
+  },
+  {
+    "id": 8,
+    "nombre": "SLP 10 Pro R29",
+    "rodado": [26],
+    "color": ["Negra blanco"],
+    "precio": 317054,
+    "categoria": "bicicletas",
+    "descripcion": "Descubre la potente bicicleta SLP 10 PRO rodado 29. Su ligero cuadro de aluminio, frenos a disco y equipamiento Shimano ofrecen un rendimiento excepcional. Prepárate para conquistar nuevos desafíos y disfrutar de una experiencia de conducción sin igual.",
+    "mainImg": ["SLP 10 Pro R29.jpg"]
+  },
+  {
+    "id": 9,
+    "nombre": "SLP 5 Woman R29 2023",
+    "rodado": [21],
+    "color": ["Negro rosa"],
+    "precio": 267925,
+    "categoria": "bicicletas",
+    "descripcion": "La bicicleta SLP 5 Woman es ideal para aquellas personas que recién se inician en el ciclismo como forma de ocio o que buscan una bici práctica y equipada para desplazarse por la ciudad. Excelente relación precio/calidad. Su caño principal hacia abajo hace que sea mucho más cómoda para montarla y genera mayor seguridad.",
+    "mainImg": ["SLP 5 Woman R29 2023.jpg"]
+  },
+  {
+    "id": 10,
+    "nombre": "SLP Touring Dama R28",
+    "rodado": [28],
+    "color": ["Blanca"],
+    "precio": 471963,
+    "categoria": "bicicletas",
+    "descripcion": "La SLP TOURING es una bicicleta híbrida elegante y versátil equipada con todos los accesorios que necesitas para salir a pedalear. Los guardabarros y el porta paquete trasero incluidos la convierten en la elección ideal para moverse por la ciudad, y los potentes frenos a disco y la transmisión Shimano de 21v aportan velocidad y seguridad.",
+    "mainImg": ["SLP Touring Dama R28.jpg"]
+  },
+  {
+    "id": 11,
+    "nombre": "SLP Touring Varón R28",
+    "rodado": [28],
+    "color": ["Negra"],
+    "precio": 471963,
+    "categoria": "bicicletas",
+    "descripcion": "La SLP TOURING es una bicicleta híbrida elegante y versátil equipada con todos los accesorios que necesitas para salir a pedalear. Los guardabarros y el porta paquete trasero incluidos la convierten en la elección ideal para moverse por la ciudad, y los potentes frenos a disco y la transmisión Shimano de 21v aportan velocidad y seguridad.",
+    "mainImg": ["SLP Touring Varón R28.jpg"]
+  },
+  {
+    "id": 12,
+    "nombre": "SLP Plegable F-100",
+    "rodado": [20],
+    "color": ["blanca"],
+    "precio": 490475,
+    "categoria": "bicicletas",
+    "descripcion": "La SLP Plegable F-100 es una bicicleta plegable muy versátil y de poco mantenimiento. Está diseñada a partir de una transmisión de 7 velocidades. Es una bici súper adaptable y rueda con seguridad sobre la ciudad.",
+    "mainImg": ["SLP Plegable F-100.jpg"]
+  },
+  {
+    "id": 13,
+    "nombre": "SLP E-Bike MTB EM-1",
+    "rodado": [29],
+    "color": ["negra"],
+    "precio": 1638891,
+    "categoria": "bicicletas",
+    "descripcion": "Conocé nuestra bicicleta MTB SLP E-BIKE EM-1 que te brinda asistencia en tu pedaleo, un híbrido para hacer tu andar mucho más simple.Es una bicicleta pensada tanto para trasladarse en la ciudad como para hacer ejercicio al aire libre. Un vehículo práctico para tu traslado con cero emisiones.",
+    "mainImg": ["SLP E-Bike MTB EM-1.jpg"]
+  },
+  {
+    "id": 14,
+    "nombre": "SLP E-Bike MTB EM-2",
+    "rodado": [29],
+    "color": ["amarillo"],
+    "precio": 1859941,
+    "categoria": "bicicletas",
+    "descripcion": "La bicicleta E-BIKE EM-2 es nuestra MTB con asistencia eléctrica pensada para todo tipo de aventuras. Te permite recorrer terrenos mucho más complejos y realizar recorridos más largos sin tanto desgaste físico.La mejor parte: desde el punto de vista ambiental son inofensivas, ya que no contaminan, no generan ruido ni emisiones./VELOCIDAD MÁXIMA: 25km/h/AUTONOMÍA DE BATERÍA: 40km/TIEMPO DE CARGA: 5-6HS/POTENCIA: 240W – 36V",
+    "mainImg": ["SLP E-Bike MTB EM-2.jpg"]
+  },
+  {
+    "id": 15,
+    "nombre": "Bicicleta Vairo Xr 8.0 R29",
+    "rodado": [29],
+    "color": ["negra rojo"],
+    "precio": 965699,
+    "categoria": "bicicletas",
+    "descripcion": "Con la bicicleta Vairo Xr 8.0 D 29 tu viaje se va a otro nivel. Está fabricada con las mejores tecnologías para su óptimo rendimiento. El aluminio de su cuadro, está formado a altas presiones de líquido, reforzando el metal con un espesor de pared doble o triple. Se trata de una bicicleta liviana y ágil para convertirse en tu compañera ideal. Sumá aventuras con esta Bici hecha para vos.",
+    "mainImg": ["Bicicleta Vairo Xr 8.0 R29.jpg"]
+  },
+  {
+    "id": 16,
+    "nombre": "Bicicleta Teknial Tarpan 100Er R29",
+    "rodado": [29],
+    "color": ["amarillo"],
+    "precio": 259599,
+    "categoria": "bicicletas",
+    "descripcion": "No importa cuál sea el terreno, la Bicicleta Teknial Tarpan 100Er será tu aliada tanto en la rutina como en aventuras. Te brinda eficiencia, seguridad y carácter deportivo gracias a su freno de disco mecánico y su disposición para una postura de conducción cómoda. El cuadro de 29 de aluminio y sus llantas de aluminio de doble pared 32H, la vuelven un transporte súper duradero listo para sumarse al Mountain Bike. Sin dudas, ¡está hecha para que elijas tu camino!",
+    "mainImg": ["Bicicleta Teknial Tarpan 100Er R29.jpg"]
+  },
+  {
+    "id": 17,
+    "nombre": "Glangeh Luz Recargable",
+    "rodado": ["..."],
+    "color": ["negro"],
+    "precio": 70599,
+    "categoria": "Equipamiento",
+    "descripcion": "Diseño Ultrafino y Portátil: Este juego de luz bicicleta 2023, presenta un diseño elegante y compacto, con un grosor de sólo 1,7 cm y un peso de 27 g. No ocupará demasiado espacio en su bicicleta. El factor de forma delgada, le permite meterla en cualquier bolsillo del pecho o los pantalones vaqueros con facilidad, por lo que es ideal para actividades al aire libre, acampar o viajar.Recarga Eficiente: Carga completamente tanto el luces bicicleta delantera y trasera de forma simultánea en solo 1-1,5 horas con el cable USB incluido. El diseño del cable 2 en 1 maximiza la comodidad y reduce el tiempo de carga, mientras que el puerto Type-C con protección, proporciona un rendimiento fiable al poder protegerse contra la infiltración de agua de lluvia.",
+    "mainImg": ["Glangeh Luz Recargable.jpg"]
+  },
+  {
+    "id": 18,
+    "nombre": "Casco Bicicleta Skate",
+    "rodado": ["..."],
+    "color": ["negro azul"],
+    "precio": 18650,
+    "categoria": "Equipamiento",
+    "descripcion": "Diseño con visera desmontable: La visera incluida en el modelo puede retirarse según la elección del usuario. En todas las variantes de color la visera es de color negro.Correas para regulación en el mentón: Correas livianas regulables con ajuste en el mentón con hebilla plástica. Con almohadillas internas desmontables para mejorar su fijación.Con aeroventilas para facilitar la respiración del cuero cabelludo.",
+    "mainImg": ["Casco Bicicleta Skate.jpg"]
+  },
+  {
+    "id": 19,
+    "nombre": "Claxon moderlo bicicleta",
+    "rodado": ["..."],
+    "color": ["gris"],
+    "precio": 329000,
+    "categoria": "Equipamiento",
+    "descripcion": "Es muy ligero, ya que solo pesa 33 gr.Su cubierta está elaborada de silicón.A prueba de agua.Utiliza 2 pilas CR2032/3V o CR2025/3V.Recomendado para manubrios con un diámetro mínimo de 17 mm y hasta 23 mm.La pila viene con un plástico, el cual debes retirar para que funcione el claxon",
+    "mainImg": ["Claxon moderlo bicicleta.jpg"]
+  },
+  {
+    "id": 20,
+    "nombre": "Ajustador rayos",
+    "rodado": ["..."],
+    "color": ["azul"],
+    "precio": 10500,
+    "categoria": "Equipamiento",
+    "descripcion": "Adecuado para pezones de radios de 14 g.Ajuste para apretar los radios y corregir la deformación de la llanta.Esta llave para radios es pequeña y ligera.La superficie está tratada con revestimiento de níquel, que no se oxida fácilmente.Goma unida al mango, y tiene un cierto radio, puede ser antideslizante.",
+    "mainImg": ["Ajustador_rayos.jpg"]
+  },
+  {
+    "id": 21,
+    "nombre": "Asiento Sport Antiprostatico Vzr",
+    "rodado": ["..."],
+    "color": ["negro"],
+    "precio": 13500,
+    "categoria": "Equipamiento",
+    "descripcion": "- Asiento de alta calidad y resistencia.Diseño ergonómico centrado en la comodidad del usuario para viajes de larga duración.Acolchado con espuma viscoelástica de alta densidad y espesa, la superficie del cojín del sillín de la bicicleta es antideslizante y resistente al desgaste, duradera, buena elasticidad y muy suave, protege mejor el cuerpo gracias a sus consideraciones antropométricas y biomecánicas.Fácil de instalar en la mayoría de las bicicletas gracias a su sistema mecánico de instalación sencillo e intuitivo.",
+    "mainImg": ["Asiento-Sport-Antiprostatico-Vzr.jpg"]
+  },
+  {
+    "id": 22,
+    "nombre": "Candado + inflador de mano",
+    "rodado": ["..."],
+    "color": ["negro"],
+    "precio": 259599,
+    "categoria": "Equipamiento",
+    "descripcion": "Combo inflador gris para bicicletas de mano + Linga candado para bicicleta cadena pitón llave.",
+    "mainImg": ["Candado + inflador de mano.png"]
+  },
+  {
+    "id": 23,
+    "nombre": "Casco HC-43",
+    "rodado": ["M", "L"],
+    "color": ["negro"],
+    "precio": 80980,
+    "categoria": "Equipamiento",
+    "descripcion": "Un casco que además de brindar seguridad certificada tiene 17 canales de ventilación que aseguran mantener fresca la cabeza. Con visera larga y calce cómodo y regulable",
+    "mainImg": ["Casco HC-43.jpg"]
+  },
+  {
+    "id": 24,
+    "nombre": "Pedal MTB con traba",
+    "rodado": ["..."],
+    "color": ["gris"],
+    "precio": 67600,
+    "categoria": "Equipamiento",
+    "descripcion": "Pedal con multipropósito, puedes usarlo en MTB o BMX, te brindará la misma comodidad y libertad para disfrutar de terrenos irregulares o competencias de BMX. EL diseño de estos pedales es tan versátil que te permite practicar dos disciplinas con la misma seguridad.",
+    "mainImg": ["Pedal MTB con traba.jpg"]
+  },
+  {
+    "id": 25,
+    "nombre": "Calza Vairo Grom",
+    "rodado": ["M", "XL"],
+    "color": ["negro azul"],
+    "precio": 15700,
+    "categoria": "Equipamiento",
+    "descripcion": "Nadie mejor para saber qué necesitan los ciclistas que Vairo. Es por eso que traen la Calza Vairo Grom, una prenda cómoda y especialmente diseñada para brindarte confort y movilidad a la hora de subir a tu bicicleta.",
+    "mainImg": ["Calza Vairo Grom.jpg"]
+  },
+  {
+    "id": 26,
+    "nombre": "Lentes de Sol Ciclismo Shimano Technium Unisex",
+    "rodado": ["..."],
+    "color": ["azul"],
+    "precio": 71899,
+    "categoria": "Equipamiento",
+    "descripcion": "Los Lentes de Sol Shimano Technium se convertirá en tu compañero ideal al momento de realizar tu deporte favorito. Fabricado con material de poliamida, ofrece máxima durabilidad y resistencia para emplearlo en cualquier ocasión. Cuenta con patillas redondeadas con dibujo antideslizante para mayor seguridad y confort, mientras que el puente nasal reversible incorpora diferente grosor delantero y trasero para un mejor ajuste. Ya sea para protegerte del sol, del polvo o del viento, este accesorio es perfecto para desplazarte con tranquilidad.",
+    "mainImg": ["Lentes de Sol Ciclismo Shimano Technium Unisex.jpg"]
+  },
+  {
+    "id": 27,
+    "nombre": "Mochila Camelbak M.U.L.E. Lr 15 100 Oz",
+    "rodado": ["S", "M", "L", "XL"],
+    "color": ["negra"],
+    "precio": 107999,
+    "categoria": "Equipamiento",
+    "descripcion": "Sumá practicidad y confort a tu próximo destino con la Mochila Camelbak M.U.L.E. Lr 15 100 Oz. Con un almacenamiento total de 12 litros, podrás llevar todas tus pertenencias de manera cómoda y organizada vayas donde vayas. El panel trasero Air Director™ y el arnés ventilado alejan el sudor de tu cuerpo y mantienen tu piel fresca para que las altas temperaturas no te detengan. Además, el diseño lumbar proporciona máxima estabilidad en los senderos más arriesgados y asegura un ajuste personalizado. Como si fuera poco, los bolsillos con cierre garantizan máxima protección y organización para que transportes cómodamente tus objetos personales. Comenzá a planear tu próximo viaje y no te olvides de llevar con vos esta mochila de alto rendimiento a donde vayas.",
+    "mainImg": ["Mochila  Camelbak M.U.L.E. Lr 15 100 Oz.jpg"]
+  },
+  {
+    "id": 28,
+    "nombre": "Remera Ciclismo Oakley Icon 2.0 Hombre",
+    "rodado": ["L", "XL"],
+    "color": ["negro"],
+    "precio": 104999,
+    "categoria": "Equipamiento",
+    "descripcion": "Suma a tus carreras una prenda ideal, la Remera Ciclismo Oakley Icon 2.0 Hombre. Confeccionada en poliéster de calidad que te asegura resistencia y durabilidad en cada uso. La exclusiva tela de secado rápido y elástica en cuatro direcciones y el cierre con cremallera YKK y leva de fijación la convierten en la prenda favorita para mejorar tu experiencia de ciclismo.",
+    "mainImg": ["Remera Ciclismo Oakley Icon 2.0 Hombre.jfif"]
+  },
+  {
+    "id": 29,
+    "nombre": "Plato y Palanca Bicicleta Shimano Mt210 9v 175mm",
+    "rodado": ["..."],
+    "color": ["negro"],
+    "precio": 37500,
+    "categoria": "Equipamiento",
+    "descripcion": "El Plato Shimano Palanca Mt210 9v 175mm cuenta con una construcción de 2 piezas compatible con los pedalieres de 24 mm exteriores. El FC-MT210-3 está diseñado para transmisiones de MTB de 3x9 velocidades. Además, lleva platos SG-X y proporciona un cambio preciso y fiable para aquellos apasionados por el ciclismo. El estrecho factor Q o la distancia entren las piernas al pedalear, proporciona máxima comodidad para desplazarte sin intervenciones. Sumá productos de calidad a tu bicicleta.",
+    "mainImg": ["Plato y Palanca Bicicleta Shimano Mt210 9v 175mm.jpg"]
+  },
+  {
+    "id": 30,
+    "nombre": "Set Ruedas Bicicleta Shimano Mt600 100/142mm",
+    "rodado": ["..."],
+    "color": ["negra"],
+    "precio": 254200,
+    "categoria": "Equipamiento",
+    "descripcion": "El Set Shimano Ruedas Mt600 100/142mm cuenta con neumáticos con 24 rayos de acero inoxidable de doble cronificado que aseguran tu estabilidad. Robustas y confiables, poseen un soporte de freno de disco Centerlock y E-Thru estándar que garantizan un manejo sencillo y cómodo. Los bujes cuentan con sellos de contacto y laberinto de alta calidad, así como rodamientos cónicos que brindan un rodamiento suave y un mejor rendimiento. Disfrutá de tu andar con productos de calidad.",
+    "mainImg": ["Set Ruedas Bicicleta Shimano Mt600 100-142mm.jfif"]
+  }
 ]
