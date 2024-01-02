@@ -7,7 +7,7 @@ const router = express.Router();
 
 router.get('/agregar', add);
 router.get('/editar', edit);
-router.get('/productDetail/:id',detail)
+router.get('/product-detail/:id',detail)
 router.post('/agregar',upload.array('img-porduct'),store)
 
 
