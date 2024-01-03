@@ -304,5 +304,25 @@
     "categoria": "Equipamiento",
     "descripcion": "El Set Shimano Ruedas Mt600 100/142mm cuenta con neumáticos con 24 rayos de acero inoxidable de doble cronificado que aseguran tu estabilidad. Robustas y confiables, poseen un soporte de freno de disco Centerlock y E-Thru estándar que garantizan un manejo sencillo y cómodo. Los bujes cuentan con sellos de contacto y laberinto de alta calidad, así como rodamientos cónicos que brindan un rodamiento suave y un mejor rendimiento. Disfrutá de tu andar con productos de calidad.",
     "mainImg": ["Set Ruedas Bicicleta Shimano Mt600 100-142mm.jfif"]
+  },
+  {
+    "id": 31,
+    "nombre": "bici",
+    "precio": 10000,
+    "rodado": ["20"],
+    "color": ["azul"],
+    "categoria": "bicicletas",
+    "descripcion": "lorem",
+    "mainImg": []
+  },
+  {
+    "id": 32,
+    "nombre": "casco",
+    "precio": 35000,
+    "rodado": [""],
+    "color": ["blanco"],
+    "categoria": "Equipamiento",
+    "descripcion": "ljwewgf",
+    "mainImg": ["1704245551525_img-porduct.jpg"]
   }
 ]

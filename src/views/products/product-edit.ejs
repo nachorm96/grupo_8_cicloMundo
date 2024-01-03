@@ -13,18 +13,18 @@
 <main class="product-edit__main">
     <h2>Editar producto</h2>
     <section class="products__section">
-        <form class="products__form" action="">
+        <form class="products__form" action="/products/actualizar/<%= id %>?_method=PUT" method="POST">
             <div class="products__form__box">
                 <label class="products__form__box__label" for="name">Nombre del producto</label>
                 <input class="products__form__box__input" id="name" name="name" type="text" value="<%= nombre %>">
             </div>
-            <div class="products__form__box">
+            <!--<div class="products__form__box">
                 <label class="products__form__box__label" for="idProduct">ID producto</label>
                 <input class="products__form__box__input" id="idProduct" name="idProduct" type="text" value="<%= id %>">
-            </div>
+            </div>-->
             <div class="products__form__box">
                 <label class="products__form__box__label" for="image">Agregar imagen</label>
-                <input class="products__form__box__input" id="image" type="file" accept="image/*">
+                <input class="products__form__box__input" id="image" type="file" name="mainImg" accept="image/*">
             </div>
             <div class="products__form__box">
                 <label class="products__form__box__label" for="category">Categoría</label>
@@ -38,25 +38,27 @@
             </div>
             <div class="products__form__box">
                 <label class="products__form__box__label" for="rodado">Rodado</label>
-                <select class="products__form__box__input" id="rodado" name="rodado">
+                <input type="text" class="products__form__box__input" id="rodado" name="rodado" placeholder="Ej: 19,20,29" value="<%= rodado %>">
+                <!-- <select class="products__form__box__input" id="rodado" name="rodado">
                     <option value="" selected hidden>
                         Seleccione...
                     </option>
                     <option value="rodado1">rodado 1</option>
                     <option value="rodado2">rodado 2</option>
                     <option value="rodado3">rodado 3</option>
-                    </select>
+                    </select> -->
             </div>
             <div class="products__form__box">
                 <label class="products__form__box__label" for="color">Color</label>
-                <select class="products__form__box__input" id="color" name="color">
+                <input type="text" class="products__form__box__input" id="color" name="color" placeholder="Ej: rojo,blanco negro" value="<%= color %>">
+                <!-- <select class="products__form__box__input" id="color" name="color">
                     <option value="" selected hidden>
                         Seleccione...
                     </option>
                     <option value="color1">color 1</option>
                     <option value="color2">color 2</option>
                     <option value="color3">color 3</option>
-                    </select>
+                    </select> -->
             </div>
             <div class="products__form__box">
                 <label class="products__form__box__label" for="price">Precio</label>
@@ -67,7 +69,7 @@
                 <textarea class="products__form__box__input" rows="3" name="descrption" id="descrption"><%= descripcion %></textarea>
             </div>
             <div class="products__form__box--button">
-                <a href="/" class="products__button" type="submit">Guardar cambios</a>
+                <button class="products__button" >Guardar cambios</button>
             </div>
         </form>
     </section>

@@ -5,7 +5,7 @@ const path = require('path');
 const productsFilePath = path.join(__dirname, '../data/productos.json');
 const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
 const toThousand = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
-//const { leerJSON } = require("../data");
+const { leerJSON, escribirJSON } = require("../data");
 
 
 module.exports = {
@@ -46,5 +46,28 @@ module.exports = {
         return res.render('products/product-edit', {
             ...product
         })
+    },
+    update : (req, res) => {
+        const {nombre, precio, rodado, color, categoria, descripcion} = req.body;
+
+        const {id} = req.params;
+
+        const products = leerJSON('products');
+
+        const productsUpdated = products.map((product) => {
+            if(product.id === +id) {
+                product.nombre = nombre.trim();
+                product.precio = precio;
+                product.rodado = rodado;
+                product.color = color;
+                product.categoria = categoria.trim();
+                product.descripcion = descripcion.trim();
+            }
+            return product
+        })
+
+        //escribirJSON(productsUpdated, 'products')
+
+        return res.redirect('/admin')
     }
 }
