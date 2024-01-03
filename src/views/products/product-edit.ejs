@@ -13,22 +13,22 @@
 <main class="product-edit__main">
     <h2>Editar producto</h2>
     <section class="products__section">
-        <form class="products__form" action="/products/actualizar/<%= id %>?_method=PUT" method="POST">
+        <form class="products__form" action="/products/actualizar/<%= id %>?_method=PUT" method="POST" enctype="multipart/form-data">
             <div class="products__form__box">
                 <label class="products__form__box__label" for="name">Nombre del producto</label>
-                <input class="products__form__box__input" id="name" name="name" type="text" value="<%= nombre %>">
+                <input class="products__form__box__input" id="name" name="nombre" type="text" value="<%= nombre %>">
             </div>
             <!--<div class="products__form__box">
                 <label class="products__form__box__label" for="idProduct">ID producto</label>
-                <input class="products__form__box__input" id="idProduct" name="idProduct" type="text" value="<%= id %>">
+                <input class="products__form__box__input" id="idProduct" name="idProduct" type="text" value="">
             </div>-->
             <div class="products__form__box">
                 <label class="products__form__box__label" for="image">Agregar imagen</label>
-                <input class="products__form__box__input" id="image" type="file" name="mainImg" accept="image/*">
+                <input class="products__form__box__input" id="image" type="file" multiple name="img-porduct" accept="image/*">
             </div>
             <div class="products__form__box">
                 <label class="products__form__box__label" for="category">Categoría</label>
-                <select class="products__form__box__input" id="category" name="category">
+                <select class="products__form__box__input" id="categoria" name="categoria">
                     <option value="" selected hidden>
                     </option>
                     <option <%= categoria === "bicicletas" && "selected" %> value="bicicletas">Bicicletas</option>
@@ -62,11 +62,11 @@
             </div>
             <div class="products__form__box">
                 <label class="products__form__box__label" for="price">Precio</label>
-                <input class="products__form__box__input" id="price" name="price" type="text" value="<%= precio %>">
+                <input class="products__form__box__input" id="price" name="precio" type="text" value="<%= precio %>">
             </div>
             <div class="products__form__box">
                 <label class="products__form__box__label" for="descrption">Descripción</label>
-                <textarea class="products__form__box__input" rows="3" name="descrption" id="descrption"><%= descripcion %></textarea>
+                <textarea class="products__form__box__input" rows="3" name="descripcion" id="descrption"><%= descripcion %></textarea>
             </div>
             <div class="products__form__box--button">
                 <button class="products__button" >Guardar cambios</button>
