@@ -105,46 +105,16 @@
     </section>
     <h2 class="titulos__producto">Productos relacionados</h2>
     <section class="main__product--section3">
+
       <article class="producto__relacionado">
-        <a href="/">
-          <img src="/images/Giant_XTC_Advanced_SL_29_1_01a.jpg" alt="">
-          <div class="producto__descripcion_home">
-            <h3>Giant XTC Advanced SL 29</h3>
-            <p>20% con tarjeta bbva <i class="fa-solid fa-credit-card"></i></p>
-            <h4>$$$</h4>
-          </div>
-        </a>
+      <!-- <article class="home__section__article--producto"> -->
+
+        <% productsBici.forEach(product => { %>
+          <%- include('../partials/product-card', {product}) %>
+        <% }) %>
+
       </article>
-      <article class="producto__relacionado">
-        <a href="/">
-          <img src="/images/xtc_adv_sl_29_showcase_gallery01.jpg" alt="">
-          <div class="producto__descripcion_home">
-            <h3>Giant XTC Advanced SL 29</h3>
-            <p>20% con tarjeta bbva <i class="fa-solid fa-credit-card"></i></p>
-            <h4>$$$</h4>
-          </div>
-        </a>
-      </article>
-      <article class="producto__relacionado">
-        <a href="/">
-          <img src="/images/Giant_XTC_Advanced_SL_29_1_01a.jpg" alt="">
-          <div class="producto__descripcion_home">
-            <h3>Giant XTC Advanced SL 29</h3>
-            <p>20% con tarjeta bbva <i class="fa-solid fa-credit-card"></i></p>
-            <h4>$$$</h4>
-          </div>
-        </a>
-      </article>
-      <article class="producto__relacionado">
-        <a href="/">
-          <img src="/images/xtc_adv_sl_29_showcase_gallery01.jpg" alt="">
-          <div class="producto__descripcion_home">
-            <h3>Giant XTC Advanced SL 29</h3>
-            <p>20% con tarjeta bbva <i class="fa-solid fa-credit-card"></i></p>
-            <h4>$$$</h4>
-          </div>
-        </a>
-      </article>
+
     </section>
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
