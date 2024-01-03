@@ -5,12 +5,17 @@ const path = require('path');
 const productsFilePath = path.join(__dirname, '../data/productos.json');
 const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
 const toThousand = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
-// const { leerJSON, escribirJSON } = require("../data");
 
 
 module.exports = {
     detail : (req,res)=> {
-        return res.render('products/productDetail')
+        const product=products.find(product=>product.id === +req.params.id)
+        return res.render('products/product-detail',{
+            productsBici : products.filter(product=> product.precio < +100000),
+            products,
+            ...product,
+            toThousand
+        })
     },
     add : (req, res) => {
         return res.render('products/product-add')
@@ -36,16 +41,6 @@ module.exports = {
         res.redirect('/admin');
     },
     edit : (req, res) => {
-
-        // const {id} =req.params;
-
-        // const products = leerJSON('productos');
-
-        // const product = products.find(product => product.id === +id)
-        // return res.render('products/product-edit', {
-        //     ...product
-        // })
-
         const product = products.find(product => product.id === +req.params.id)
 		return res.render('products/product-edit',{
 			...product
@@ -72,27 +67,7 @@ module.exports = {
 
 		return res.redirect("/admin");
 	},
-
-
-
-    //     const {id} = req.params;
-
-    //     const products = leerJSON('products');
-
-    //     const productsUpdated = products.map((product) => {
-    //         if(product.id === +id) {
-    //             product.nombre = nombre.trim();
-    //             product.precio = precio;
-    //             product.rodado = rodado;
-    //             product.color = color;
-    //             product.categoria = categoria.trim();
-    //             product.descripcion = descripcion.trim();
-    //         }
-    //         return product
-    //     })
-
-    //     escribirJSON(productsUpdated, 'products')
-
-    //     return res.redirect('/admin')
-    // }
+    remove : (req,res) => {
+        return res.render('products/product-delete')
+    }
 }
