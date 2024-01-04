@@ -49,20 +49,20 @@ module.exports = {
     update : (req, res) => {
         const {nombre, precio, rodado, color, categoria, descripcion,mainImg} = req.body;
 
-        existsSync('public/images/productos/' + mainImg) && unlinkSync('public/images/productos/' + mainImg)
-
-		const productUpdate = products.map(product => {
-			if(product.id === +req.params.id){
-				product.nombre=nombre,
-				product.precio+precio,
-				product.rodado= Array.isArray(rodado) ? rodado : rodado.split(',').map(rodado => rodado.trim()),
-				product.color= Array.isArray(color) ? color : color.split(',').map(color => color.trim()),
-                product.categoria=categoria,
-				product.descripcion=descripcion,
-				product.mainImg=req.files.map(file => file.filename);
-			}
-			return product
-		})
+        existsSync('public/images/productos' + mainImg) && unlinkSync('public/images/productos' + mainImg)
+                    
+        const productUpdate = products.map(product => {
+            if (product.id === +req.params.id) {
+                product.nombre = nombre;
+                product.precio = +precio;
+                product.rodado = Array.isArray(rodado) ? rodado : rodado.split(',').map(rodado => rodado.trim());
+                product.color = Array.isArray(color) ? color : color.split(',').map(color => color.trim());
+                product.categoria = categoria;
+                product.descripcion = descripcion;
+                product.mainImg = req.files ? req.files.map(file => file.filename) : product.mainImg;
+            }
+            return product;
+        });
 		fs.writeFileSync(productsFilePath,JSON.stringify(productUpdate),'utf-8')
 
 		return res.redirect("/admin");

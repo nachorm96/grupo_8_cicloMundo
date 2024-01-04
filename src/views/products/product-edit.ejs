@@ -24,14 +24,14 @@
             </div>-->
             <div class="products__form__box">
                 <label class="products__form__box__label" for="image">Agregar imagen</label>
-                <input class="products__form__box__input" id="image" type="file" multiple name="img-porduct" accept="image/*">
+                <input class="products__form__box__input" id="image" type="file" multiple name="img-porduct" >
             </div>
             <div class="products__form__box">
                 <label class="products__form__box__label" for="category">Categoría</label>
                 <select class="products__form__box__input" id="categoria" name="categoria">
                     <option value="" selected hidden>
                     </option>
-                    <option <%= categoria === "bicicletas" && "selected" %> value="bicicletas">Bicicletas</option>
+                    <option <%= categoria === "Bicicletas" && "selected" %> value="Bicicletas">Bicicletas</option>
                     <option <%= categoria === "Equipamiento" && "selected" %> value="Equipamiento">Equipamiento</option>
 
                     </select>
