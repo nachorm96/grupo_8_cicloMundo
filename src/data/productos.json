@@ -476,5 +476,21 @@
     "mainImg": [
       "Plato y Palanca Bicicleta Shimano Mt210 9v 175mm.jpg"
     ]
-  },{"id":30,"nombre":"Bici para damas","precio":1213313,"rodado":["20","21"],"color":["rojo","verde"],"categoria":"Bicicletas","descripcion":"asdfghjm,","mainImg":["1704337355586_img-porduct.jpg","1704337355608_img-porduct.jpg","1704337355611_img-porduct.jpg","1704337355747_img-porduct.jpg"]}
+  },
+  {
+    "id": 30,
+    "nombre": "Set Ruedas Bicicleta Shimano Mt600 100/142mm",
+    "rodado": [
+      "..."
+    ],
+    "color": [
+      "negra"
+    ],
+    "precio": 254200,
+    "categoria": "Equipamiento",
+    "descripcion": "El Set Shimano Ruedas Mt600 100/142mm cuenta con neumáticos con 24 rayos de acero inoxidable de doble cronificado que aseguran tu estabilidad. Robustas y confiables, poseen un soporte de freno de disco Centerlock y E-Thru estándar que garantizan un manejo sencillo y cómodo. Los bujes cuentan con sellos de contacto y laberinto de alta calidad, así como rodamientos cónicos que brindan un rodamiento suave y un mejor rendimiento. Disfrutá de tu andar con productos de calidad.",
+    "mainImg": [
+      "Set Ruedas Bicicleta Shimano Mt600 100-142mm.jfif"
+    ]
+  }
 ]
