@@ -70,6 +70,18 @@ module.exports = {
 		return res.redirect("/admin");
 	},
     remove : (req,res) => {
-        return res.render('products/product-delete')
+        // return res.render('products/product-delete')
+        const {id} = req.params;
+	
+		const {mainImg} = products.find(product => product.id == id);
+		existsSync('public/images/productos/' + mainImg) && unlinkSync('public/images/productos/' + mainImg)
+
+		const productsDelete = products.filter(product => product.id != id);
+	
+		fs.writeFileSync(productsFilePath,JSON.stringify(productsDelete),'utf-8')
+	
+		return res.redirect('/admin')
+
+	
     }
 }
