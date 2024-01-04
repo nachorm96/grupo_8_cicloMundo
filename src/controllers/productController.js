@@ -59,7 +59,9 @@ module.exports = {
                 product.color = Array.isArray(color) ? color : color.split(',').map(color => color.trim());
                 product.categoria = categoria;
                 product.descripcion = descripcion;
-                product.mainImg = req.files ? req.files.map(file => file.filename) : product.mainImg;
+                if (req.files && req.files.length > 0) {
+                    product.mainImg = req.files.map(file => file.filename);
+                }
             }
             return product;
         });
