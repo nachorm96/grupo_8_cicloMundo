@@ -29,21 +29,21 @@
                     </div>
                 </section>
                 <section class="home__main__section--productos">
-                    <article class="home__section__article--producto">
-            <% productsBici.forEach(product => { %>
-                        <%- include('./partials/product-card', {product}) %>
-                    <% }) %>
-                    </article>
+                    
+                        <% productsBici.forEach(product => { %>
+                            <%- include('./partials/product-card', {product}) %>
+                        <% }) %>
+                    
                 </section>
 
                 <h2 class="home__titulos">Acompaña tu compra</h2>
 
                 <section class="home__main__section--productos">
-                    <article class="home__section__article--producto">
+                  
                         <% productsEquipa.forEach(product => { %>
                             <%- include('./partials/product-card', {product}) %>
                         <% }) %>
-                    </article>
+                    
                 </section>
           
             </main>
