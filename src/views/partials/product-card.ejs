@@ -1,26 +1,15 @@
-<!-- <section class="home__main__section--productos">
-    <article class="home__section__article--producto">
-        <a href="/product-detail">
-        <img src="/images/1523883443_639903_1523884200_sumario_normal.jpg" alt="">
-        <div class="producto__descripcion">
-            <h3>Glangeh Luz Recargable</h3>
-            <p>20% con tarjeta bbva <i class="fa-solid fa-credit-card"></i></p>
-            <h4>$30.000</h4>
-        </div>
-        </a>
-    </article> -->
 
-
-        <!-- <article class="home__section__article--producto"> -->
+<!-- <article class="home__section__article--producto"> -->
  
-            <a href="products/product-detail/<%= product.id %>">
-            <img src="/images/productos/<%= product.mainImg[0] || 'Producto-sin-imagen.jpg' %>" alt="">
-            <div class="producto__descripcion">
-                <h3><%= product.nombre %></h3>
-                <p>20% con tarjeta bbva <i class="fa-solid fa-credit-card"></i></p>
-                <h4>$<%= toThousand(product.precio) %></h4>
-            </div>
-            </a>
+    <a href="products/product-detail/<%= product.id %>">
+    <img src="/images/productos/<%= product.mainImg[0] || 'Producto-sin-imagen.jpg' %>" alt="">
+    <div class="producto__descripcion">
+        <h3><%= product.nombre %></h3>
+        <!-- a revisar -->
+        <!-- <p>20% con tarjeta bbva <i class="fa-solid fa-credit-card"></i></p> -->
+        <h4>$<%= toThousand(product.precio) %></h4>
+    </div>
+    </a>
 
-        <!-- </article> -->
+<!-- </article> -->
     

@@ -51,7 +51,7 @@
         <h1><%= nombre %></h1>
         <h2>$<%= toThousand(precio) %></h2>
         <p>
-          24 CUOTAS SIN INTERES DE $<%= toThousand((precio/24).toFixed(0)) %>
+          24 CUOTAS SIN INTERES DE $<%= toThousand((precio/24).toFixed(0)) %> CON  BBVA  <i class="fa-solid fa-credit-card"></i>
         </p>
         <div class="box__compra">
           <div class="box__pedido">
@@ -106,8 +106,8 @@
     <h2 class="titulos__producto">Productos relacionados</h2>
     <section class="main__product--section3">
 
-      <article class="producto__relacionado">
-      <!-- <article class="home__section__article--producto"> -->
+      <!-- <article class="producto__relacionado"> -->
+      <article class="home__section__article--producto">
 
         <% productsBici.forEach(product => { %>
           <%- include('../partials/product-card', {product}) %>
