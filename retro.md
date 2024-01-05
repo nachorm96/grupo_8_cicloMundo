@@ -10,4 +10,9 @@ La empatía hacia el otro es algo que se seguirá haciendo, por lo cual se trata
 Algo que ha afectado al equipo y se tratara de hacer menos dejar pasar días desde el lanzamiento del sprint para la realización de las tareas en el tablero y la designación de las mismas a cada integrante.
 llegamos a la conclusion que debemos dejar de escribirlos por privado  y empezar a hacerlo mas seguido por el grupo que tenemos,para tener una buena comunnicacon con todos los integrantes del equipo y con los profes.
 
-
+### Retrospectiva Sprint 3
+- **Comenzar a hacer:** Reunión grupal antes de entregar el sprint para comprobar que todo esté funcionando, coordinar días y horarios para las dailys.
+- **Hacer más:** dailys, crear el tablero apenas empiece el sprint, comunicación sobre el avance de cada integrante en sus tareas.
+- **Continuar haciendo:**  dividir las tareas de manera equitativa, ayudar si un compañero lo necesita.
+- **Hacer menos:** empezar las tareas tarde, estar varios días sin comunicación.
+- **dejar de hacer:** subir los cambios el día de la entrega a último momento(tratar de terminar un día antes).
