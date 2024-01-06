@@ -106,9 +106,11 @@
     <h2 class="titulos__producto">Productos relacionados</h2>
     <section class="main__product--section3">
 
-        <% productsBici.forEach(product => { %>
-          <%- include('../partials/product-card', {product}) %>
-        <% }) %>
+      <% 
+      const relacionadoProducts = productsBici.filter(pproduct => pproduct.categoria === categoria);
+      relacionadoProducts.slice(0, 6).forEach(relacionadoProduct => { %>
+          <%- include('../partials/product-card', { product: relacionadoProduct }) %>
+      <% }) %>
 
     </section>
     <!-- Swiper JS -->

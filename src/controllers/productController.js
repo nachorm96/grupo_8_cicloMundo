@@ -8,15 +8,18 @@ const toThousand = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 
 
 module.exports = {
-    detail : (req,res)=> {
-        const product=products.find(product=>product.id === +req.params.id)
-        return res.render('products/product-detail',{
-            productsBici : products.filter(product=> product.precio < +100000),
-            products,
+
+    detail : (req, res)=> {
+        const product = products.find(product => product.id === +req.params.id)
+        const relacionadoProduct = products.filter(product=> product.categoria === product.categoria && product.id !== +req.params.id);
+        
+        return res.render('products/product-detail', {
+            productsBici : relacionadoProduct,
             ...product,
-            toThousand
-        })
+            toThousand 
+        });
     },
+
     add : (req, res) => {
         return res.render('products/product-add')
     },
@@ -72,9 +75,10 @@ module.exports = {
     remove : (req,res) => {
         // return res.render('products/product-delete')
         const {id} = req.params;
-	
-		const {mainImg} = products.find(product => product.id == id);
-		existsSync('public/images/productos/' + mainImg) && unlinkSync('public/images/productos/' + mainImg)
+
+        const {mainImg} = products.find(product => product.id === id);
+
+        existsSync('public/images/productos/' + mainImg) && unlinkSync('public/images/productos/' + mainImg)
 
 		const productsDelete = products.filter(product => product.id != id);
 	
