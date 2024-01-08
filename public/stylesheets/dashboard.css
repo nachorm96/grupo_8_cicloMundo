@@ -8,7 +8,7 @@
 .section__dashboard {
   display: flex;
   margin: auto;
-  width: 100%;
+  /* width: 100%; */
 }
 .tabla__dashboard {
     border-collapse: collapse;

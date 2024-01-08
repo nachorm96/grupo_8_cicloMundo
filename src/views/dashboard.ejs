@@ -14,11 +14,10 @@
 
     <main class="main__dashboard">
         <section class="section__dashboard">
-          
+          <% if (products.length) { %>
             <table class="tabla__dashboard">
           
             <thead>
-          <% if (products.length) { %>
               <tr >
                 <th class="border-end-0" colspan="6"> <a href="/admin">Bicicletas & Equipamientos</a>
                   <% if (locals.keyword) { %>
@@ -68,15 +67,16 @@
                         </td>
                   </tr>
               <% }) %>
-            <% }else{ %>
-              <div class="alert alert-warning" role="alert">
-                    No hay productos relacionados con "<%= keyword %>" para mostrar :
-              </div>
-            <% } %>
+
             </tbody>
 
             </table>
-
+          <% }else{ %>
+              <div class="alert alert-warning m-5" role="alert">
+                  No hay productos relacionados con "<%= keyword %>" para mostrar >>>
+                  volver al  <a  href="/admin">admin</a>
+              </div>
+          <% } %>
         </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
