@@ -25,4 +25,20 @@ module.exports = {
         toThousand
       })
     },
+    buscarAdmin :(req, res) => {
+      
+      const {keyword} = req.query
+
+      const resultado = products.filter((product) =>{
+        return product.nombre.toLowerCase().includes(keyword.toLowerCase()) || product.categoria.toLowerCase().includes(keyword.toLowerCase())
+      });
+
+      return res.render('dashboard', {
+        products : resultado,
+        keyword,
+        toThousand
+      })
+
+    }
+
 }

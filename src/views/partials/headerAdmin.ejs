@@ -17,8 +17,8 @@
                 <a class="nav-link disabled" aria-disabled="true">Disabled</a>
               </li> -->
             </ul>
-            <form class="d-flex" role="Search">
-              <input class="form-control me-2" type="search" placeholder="Buscar producto" aria-label="Search">
+            <form class="d-flex" action="/admin/productos/buscar" method="GET">
+              <input class="form-control me-2" type="search" placeholder="Buscar producto" name="keyword">
               <button class="btn btn-outline-success" type="submit">Buscar</button>
             </form>
           </div>
