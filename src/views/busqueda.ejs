@@ -29,28 +29,26 @@
                     </div>
                 </section>
             <% if (products.length) { %>
-                <section class="home__main__section--productos">
-                    
-                        <% productsBici.forEach(product => { %>
-                            <%- include('./partials/product-card', {product}) %>
-                        <% }) %>
-                    
-                </section>
 
-                <h2 class="home__titulos">Acompaña tu compra</h2>
+
+                <h2 class="home__titulos">Resultado de busqueda para "<%= keyword %>"</h2>
 
                 <section class="home__main__section--productos">
                   
-                        <% productsEquipa.forEach(product => { %>
+                        <% products.forEach(product => { %>
                             <%- include('./partials/product-card', {product}) %>
                         <% }) %>
                     
                 </section>
+
             <% }else{ %>
-                <div class="alert alert-warning m-5" role="alert">
-                    No hay productos relacionados con "<%= keyword %>" para mostrar >>>
-                    volver al  <a  href="/admin">admin</a>
+                <div class="no-existe">
+                    <h3>No hay productos relacionados con "<%= keyword %>" para mostrar >>>
+                    volver al  <a  href="/">Home</a> </h3>
+                    <img src="/images/productos/Producto-sin-imagen.jpg" alt="">
                 </div>
+                <!-- <img src="/images/productos/Producto-sin-imagen.jpg" alt=""> -->
+
             <% } %>
             </main>
             <!-- Swiper JS -->

@@ -107,7 +107,7 @@
     <section class="main__product--section3">
 
       <% 
-      const relacionadoProducts = productsBici.filter(pproduct => pproduct.categoria === categoria);
+      const relacionadoProducts = productsBici.filter(product => product.categoria === categoria);
       relacionadoProducts.slice(0, 6).forEach(relacionadoProduct => { %>
           <%- include('../partials/product-card', { product: relacionadoProduct }) %>
       <% }) %>

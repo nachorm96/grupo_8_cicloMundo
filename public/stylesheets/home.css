@@ -21,6 +21,19 @@ a {
     border: 2px solid var(--colorVerde);
     margin: 30px;
 }
+/* busqueda */
+.no-existe {
+    text-align: center;
+    margin: 50px 20px;
+}
+.no-existe h3 {
+    padding: 20px;
+    background-color: tomato;
+    margin-bottom: 20px;
+}
+.no-existe img {
+    width: 70%;
+}
 
 @media (min-width:768px){
     .home__main__section--productos {

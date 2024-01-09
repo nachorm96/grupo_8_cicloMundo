@@ -3,12 +3,13 @@
   height: auto;
 }
 .main__dashboard {
-    display: flex;
+  display: flex;
 }
 .section__dashboard {
-  display: flex;
+  /* display: flex; */
   margin: auto;
   /* width: 100%; */
+  /* text-align: center; */
 }
 .tabla__dashboard {
     border-collapse: collapse;

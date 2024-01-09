@@ -39,6 +39,16 @@ module.exports = {
         toThousand
       })
 
+    },
+    buscarHome :(req, res) => {
+
+      const {keyword} = req.query;
+
+      return res.render('busqueda',{
+        products : products.filter(product => product.nombre.toLowerCase().includes(keyword.toLowerCase()) || product.categoria.toLowerCase().includes(keyword.toLowerCase())),
+        keyword,
+        toThousand
+      });
     }
 
 }

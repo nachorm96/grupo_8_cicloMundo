@@ -6,12 +6,18 @@
     </div>
     <nav>
         <article class="topnav">
-            <div class="search">
+            <form class="search" action="home/productos/buscar" method="GET">
+                <input  type="search" placeholder="Buscar producto" name="keyword">
+                <div class="btn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </form>
+            <!-- <div class="search">
                 <input type="text" placeholder="Que buscas?">
                 <div class="btn">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
-            </div>
+            </div> -->
             <div class="user">
                 <a href="/login">
                 <i class="fa-solid fa-user"></i>
