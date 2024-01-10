@@ -3,13 +3,14 @@ const fs = require('fs');
 const path = require('path');
 
 const productsFilePath = path.join(__dirname, '../data/productos.json');
-const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
+// const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
 const toThousand = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 
 
 module.exports = {
 
     detail : (req, res)=> {
+        const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
         const product = products.find(product => product.id === +req.params.id)
         const relacionadoProduct = products.filter(product=> product.categoria === product.categoria && product.id !== +req.params.id);
         
@@ -24,6 +25,8 @@ module.exports = {
         return res.render('products/product-add')
     },
     store: (req, res) => {
+
+        const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
         const lastID = products[products.length - 1].id;
 		const {nombre, precio, rodado,color,categoria, descripcion,mainImg} = req.body;
 
@@ -42,6 +45,7 @@ module.exports = {
         fs.writeFileSync(productsFilePath,JSON.stringify(products),'utf-8')
 
         res.redirect('/admin');
+
     },
     edit : (req, res) => {
         const product = products.find(product => product.id === +req.params.id)
@@ -50,6 +54,8 @@ module.exports = {
 		})
     },
     update : (req, res) => {
+
+        const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
         const {nombre, precio, rodado, color, categoria, descripcion,mainImg} = req.body;
 
         existsSync('public/images/productos' + mainImg) && unlinkSync('public/images/productos' + mainImg)
@@ -73,9 +79,23 @@ module.exports = {
 		return res.redirect("/admin");
 	},
     remove : (req,res) => {
-        // return res.render('products/product-delete')
-        const {id} = req.params;
+       
+        // const {id} = req.params;
+        // const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
+
 	
+		// const {mainImg} = products.find(product => product.id == id);
+		// existsSync('public/images/productos/' + mainImg) && unlinkSync('public/images/productos/' + mainImg)
+
+		// const productsDelete = products.filter(product => product.id != id);
+	
+		// fs.writeFileSync(productsFilePath,JSON.stringify(productsDelete),'utf-8')
+	
+		// return res.redirect('/admin')
+
+        
+		const {id} = req.params;
+        const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
 		const {mainImg} = products.find(product => product.id == id);
 		existsSync('public/images/productos/' + mainImg) && unlinkSync('public/images/productos/' + mainImg)
 
