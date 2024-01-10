@@ -80,22 +80,10 @@ module.exports = {
 	},
     remove : (req,res) => {
        
-        // const {id} = req.params;
-        // const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
-
-	
-		// const {mainImg} = products.find(product => product.id == id);
-		// existsSync('public/images/productos/' + mainImg) && unlinkSync('public/images/productos/' + mainImg)
-
-		// const productsDelete = products.filter(product => product.id != id);
-	
-		// fs.writeFileSync(productsFilePath,JSON.stringify(productsDelete),'utf-8')
-	
-		// return res.redirect('/admin')
-
-        
-		const {id} = req.params;
+        const {id} = req.params;
         const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
+
+	
 		const {mainImg} = products.find(product => product.id == id);
 		existsSync('public/images/productos/' + mainImg) && unlinkSync('public/images/productos/' + mainImg)
 
