@@ -48,6 +48,7 @@ module.exports = {
 
     },
     edit : (req, res) => {
+        const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
         const product = products.find(product => product.id === +req.params.id)
 		return res.render('products/product-edit',{
 			...product
