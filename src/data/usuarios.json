@@ -1,108 +1,130 @@
 [
-    {
-      "id": 1,
-      "nombre": "Lucía",
-      "apellido": "Martínez",
-      "email": "flodwick0@gmail.com",
-      "password": "abc124"
-    },
-    {
-      "id": 2,
-      "nombre": "Julia",
-      "apellido": "Ramirez",
-      "email": "julia@hotmail.com",
-      "password": "hte794q"
-    },
-    {
-      "id": 3,
-      "nombre": "Octavio",
-      "apellido": "Hernández",
-      "email": "octh@gmail.com",
-      "password": "123456"
-    },
-    {
-      "id": 4,
-      "nombre": "Valentin",
-      "apellido": "Sánchez",
-      "email": "sanchez@gmail.com",
-      "password": "987955"
-    },
-    {
-      "id": 5,
-      "nombre": "Rocío",
-      "apellido": "Pérez",
-      "email": "rocio@hotmail.com",
-      "password": "oPcdy79"
-    },
-    {
-      "id": 6,
-      "nombre": "Joel",
-      "apellido": "Torres",
-      "email": "torres@gmail.com",
-      "password": "jkl456"
-    },
-    {
-      "id": 7,
-      "nombre": "Franco",
-      "apellido": "López",
-      "email": "lopez@hotmail.com",
-      "password": "wqt4sa"
-    },
-    {
-      "id": 8,
-      "nombre": "Marcos",
-      "apellido": "Rodríguez",
-      "email": "marcos@hotmail.com",
-      "password": "nm45as1"
-    },
-    {
-      "id": 9,
-      "nombre": "Camila",
-      "apellido": "Gómez",
-      "email": "cami@gmail.com",
-      "password": "123art"
-    },
-    {
-      "id": 10,
-      "nombre": "Luciana",
-      "apellido": "Pavón",
-      "email": "luciana@hotmail.com",
-      "password": "asdf123"
-    },
-    {
-      "id": 11,
-      "nombre": "Nicolás",
-      "apellido": "Pérez",
-      "email": "nicop@gmail.com",
-      "password": "o5lm5Cz"
-    },
-    {
-      "id": 12,
-      "nombre": "Romina",
-      "apellido": "Suárez",
-      "email": "romi@hotmail.com",
-      "password": "mD9fs5"
-    },
-    {
-      "id": 13,
-      "nombre": "Martín",
-      "apellido": "González",
-      "email": "martin@gmail.com",
-      "password": "asd457"
-    },
-    {
-      "id": 14,
-      "nombre": "Diego",
-      "apellido": "Ramirez",
-      "email": "diego@gmail.com",
-      "password": "rty1579"
-    },
-    {
-      "id": 15,
-      "nombre": "Daniela",
-      "apellido": "Alonso",
-      "email": "daniela@gmail.com",
-      "password": "kgjg789"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "nombre": "Lucía",
+    "apellido": "Martínez",
+    "email": "flodwick0@gmail.com",
+    "password": "abc124",
+    "imgUser": []
+  },
+  {
+    "id": 2,
+    "nombre": "Julia",
+    "apellido": "Ramirez",
+    "email": "julia@hotmail.com",
+    "password": "hte794q",
+    "imgUser": []
+  },
+  {
+    "id": 3,
+    "nombre": "Octavio",
+    "apellido": "Hernández",
+    "email": "octh@gmail.com",
+    "password": "123456",
+    "imgUser": []
+  },
+  {
+    "id": 4,
+    "nombre": "Valentin",
+    "apellido": "Sánchez",
+    "email": "sanchez@gmail.com",
+    "password": "987955",
+    "imgUser": []
+  },
+  {
+    "id": 5,
+    "nombre": "Rocío",
+    "apellido": "Pérez",
+    "email": "rocio@hotmail.com",
+    "password": "oPcdy79",
+    "imgUser": []
+  },
+  {
+    "id": 6,
+    "nombre": "Joel",
+    "apellido": "Torres",
+    "email": "torres@gmail.com",
+    "password": "jkl456",
+    "imgUser": []
+  },
+  {
+    "id": 7,
+    "nombre": "Franco",
+    "apellido": "López",
+    "email": "lopez@hotmail.com",
+    "password": "wqt4sa",
+    "imgUser": []
+  },
+  {
+    "id": 8,
+    "nombre": "Marcos",
+    "apellido": "Rodríguez",
+    "email": "marcos@hotmail.com",
+    "password": "nm45as1",
+    "imgUser": []
+  },
+  {
+    "id": 9,
+    "nombre": "Camila",
+    "apellido": "Gómez",
+    "email": "cami@gmail.com",
+    "password": "123art",
+    "imgUser": []
+  },
+  {
+    "id": 10,
+    "nombre": "Luciana",
+    "apellido": "Pavón",
+    "email": "luciana@hotmail.com",
+    "password": "asdf123",
+    "imgUser": []
+  },
+  {
+    "id": 11,
+    "nombre": "Nicolás",
+    "apellido": "Pérez",
+    "email": "nicop@gmail.com",
+    "password": "o5lm5Cz",
+    "imgUser": []
+  },
+  {
+    "id": 12,
+    "nombre": "Romina",
+    "apellido": "Suárez",
+    "email": "romi@hotmail.com",
+    "password": "mD9fs5",
+    "imgUser": []
+  },
+  {
+    "id": 13,
+    "nombre": "Martín",
+    "apellido": "González",
+    "email": "martin@gmail.com",
+    "password": "asd457",
+    "imgUser": []
+  },
+  {
+    "id": 14,
+    "nombre": "Diego",
+    "apellido": "Ramirez",
+    "email": "diego@gmail.com",
+    "password": "rty1579",
+    "imgUser": []
+  },
+  {
+    "id": 15,
+    "nombre": "Daniela",
+    "apellido": "Alonso",
+    "email": "daniela@gmail.com",
+    "password": "kgjg789",
+    "imgUser": []
+  },
+  {
+    "id": 16,
+    "nombre": "Juan",
+    "apellido": "Ruis",
+    "email": "juanruis222@gmail.com",
+    "password": "$2a$10$jZG7JG2g9z.JzIeL7BHcMOFPWHfOyNfWZOy/DWUUps9m5H3GckbSu",
+    "imgUser": "1705369425065_img-users.jpg"
+  }
+]

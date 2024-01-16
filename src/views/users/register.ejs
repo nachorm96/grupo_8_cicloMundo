@@ -10,16 +10,16 @@
             <main class="register__main">
                 <h2>crear cuenta</h2>
                 <section class="register__main__section">
-                    <form action="" class="register__form">
+                    <form action="" class="register__form" method="POST" enctype="multipart/form-data">
                         <div class="register__form__box">
                             <label class="register__form__box__label" class="register__form__box__label"
                                 for="name">Nombre</label>
-                            <input class="register__form__box__input" type="text" id="name" name="name"
+                            <input class="register__form__box__input" type="text" id="name" name="nombre"
                                 placeholder="Ingresá tu nombre">
                         </div>
                         <div class="register__form__box">
                             <label class="register__form__box__label" for="surname">Apellido</label>
-                            <input class="register__form__box__input" type="text" id="surname" name="surname"
+                            <input class="register__form__box__input" type="text" id="surname" name="apellido"
                                 placeholder="Ingresá tu apellido">
                         </div>
                         <div class="register__form__box">
@@ -37,7 +37,12 @@
                             <input class="register__form__box__input" type="text" id="password2" name="password2"
                                 placeholder="Repetir contraseña">
                         </div>
-                        <div class=" register__form__box register__form__box--terms">
+                        <div class="register__form__box">
+                            <label class="register__form__box__label" for="img-users">Subir imagen</label>
+                            <input class="register__form__box__input" type="file" id="img-users" name="img-users"
+                                placeholder="Subir imagen">
+                        </div>
+                        <div class=" register__form__box--terms">
                             <input type="checkbox" id="terms" name="terms" placeholder="Repetir contraseña">
                             <label for="terms">He leído y acepto los <a class="link" href="">términos y
                                     condiciones</a></label>
