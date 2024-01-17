@@ -4,10 +4,9 @@
 .main__perfil h3 {
     text-align: center;
 }
-.section__perfil__foto {
-    /* border: solid 2px red; */
-    /* width: 50%; */
-}
+/* .section__perfil__foto {
+    border: solid 2px red;
+} */
 .article__foto {
     width: 80%;
     display: flex;
