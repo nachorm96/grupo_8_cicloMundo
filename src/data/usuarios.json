@@ -5,7 +5,13 @@
     "apellido": "Martínez",
     "email": "flodwick0@gmail.com",
     "password": "abc124",
-    "imgUser": [],
+    "imgUser": "",
+    "edad":20,
+    "calle":"juan b. justo",
+    "altura":1900,
+    "provincia":"Santa fe",
+    "localidad": "Rosario",
+    "postal":"bc1940f",
     "role":"visitante"
 },
   {
@@ -14,7 +20,13 @@
     "apellido": "Ramirez",
     "email": "julia@hotmail.com",
     "password": "hte794q",
-    "imgUser": [],
+    "imgUser": "",
+    "edad":20,
+    "calle":"juan b. justo",
+    "altura":1900,
+    "provincia":"Santa fe",
+    "localidad": "Rosario",
+    "postal":"bc1940f",
     "role":"visitante"
 },
   {
@@ -23,7 +35,13 @@
     "apellido": "Hernández",
     "email": "octh@gmail.com",
     "password": "123456",
-    "imgUser": [],
+    "imgUser": "",
+    "edad":20,
+    "calle":"juan b. justo",
+    "altura":1900,
+    "provincia":"Santa fe",
+    "localidad": "Rosario",
+    "postal":"bc1940f",
     "role":"visitante"
 },
   {
@@ -32,7 +50,13 @@
     "apellido": "Sánchez",
     "email": "sanchez@gmail.com",
     "password": "987955",
-    "imgUser": [],
+    "imgUser": "",
+    "edad":20,
+    "calle":"juan b. justo",
+    "altura":1900,
+    "provincia":"Santa fe",
+    "localidad": "Rosario",
+    "postal":"bc1940f",
     "role":"visitante"
 },
   {
@@ -41,7 +65,13 @@
     "apellido": "Pérez",
     "email": "rocio@hotmail.com",
     "password": "oPcdy79",
-    "imgUser": [],
+    "imgUser": "",
+    "edad":20,
+    "calle":"juan b. justo",
+    "altura":1900,
+    "provincia":"Santa fe",
+    "localidad": "Rosario",
+    "postal":"bc1940f",
     "role":"visitante"
 },
   {
@@ -50,7 +80,13 @@
     "apellido": "Torres",
     "email": "torres@gmail.com",
     "password": "jkl456",
-    "imgUser": [],
+    "imgUser": "",
+    "edad":20,
+    "calle":"juan b. justo",
+    "altura":1900,
+    "provincia":"Santa fe",
+    "localidad": "Rosario",
+    "postal":"bc1940f",
     "role":"visitante"
 },
   {
@@ -59,7 +95,13 @@
     "apellido": "López",
     "email": "lopez@hotmail.com",
     "password": "wqt4sa",
-    "imgUser": [],
+    "imgUser": "",
+    "edad":20,
+    "calle":"juan b. justo",
+    "altura":1900,
+    "provincia":"Santa fe",
+    "localidad": "Rosario",
+    "postal":"bc1940f",
     "role":"visitante"
 },
   {
@@ -68,7 +110,13 @@
     "apellido": "Rodríguez",
     "email": "marcos@hotmail.com",
     "password": "nm45as1",
-    "imgUser": [],
+    "imgUser": "",
+    "edad":20,
+    "calle":"juan b. justo",
+    "altura":1900,
+    "provincia":"Santa fe",
+    "localidad": "Rosario",
+    "postal":"bc1940f",
     "role":"visitante"
 },
   {
@@ -77,7 +125,13 @@
     "apellido": "Gómez",
     "email": "cami@gmail.com",
     "password": "123art",
-    "imgUser": [],
+    "imgUser": "",
+    "edad":20,
+    "calle":"juan b. justo",
+    "altura":1900,
+    "provincia":"Santa fe",
+    "localidad": "Rosario",
+    "postal":"bc1940f",
     "role":"visitante"
 },
   {
@@ -86,7 +140,13 @@
     "apellido": "Pavón",
     "email": "luciana@hotmail.com",
     "password": "asdf123",
-    "imgUser": [],
+    "imgUser": "",
+    "edad":20,
+    "calle":"juan b. justo",
+    "altura":1900,
+    "provincia":"Santa fe",
+    "localidad": "Rosario",
+    "postal":"bc1940f",
     "role":"visitante"
 },
   {
@@ -95,7 +155,13 @@
     "apellido": "Pérez",
     "email": "nicop@gmail.com",
     "password": "o5lm5Cz",
-    "imgUser": [],
+    "imgUser": "",
+    "edad":20,
+    "calle":"juan b. justo",
+    "altura":1900,
+    "provincia":"Santa fe",
+    "localidad": "Rosario",
+    "postal":"bc1940f",
     "role":"visitante"
 },
   {
@@ -104,7 +170,13 @@
     "apellido": "Suárez",
     "email": "romi@hotmail.com",
     "password": "mD9fs5",
-    "imgUser": [],
+    "imgUser": "",
+    "edad":20,
+    "calle":"",
+    "altura":"",
+    "provincia":"",
+    "localidad": "",
+    "postal":"",
     "role":"visitante"
 },
   {
@@ -113,7 +185,13 @@
     "apellido": "González",
     "email": "martin@gmail.com",
     "password": "asd457",
-    "imgUser": [],
+    "imgUser": "",
+    "edad":20,
+    "calle":"",
+    "altura":"",
+    "provincia":"",
+    "localidad": "",
+    "postal":"",
     "role":"visitante"
 },
   {
@@ -122,7 +200,13 @@
     "apellido": "Ramirez",
     "email": "diego@gmail.com",
     "password": "rty1579",
-    "imgUser": [],
+    "imgUser": "",
+    "edad":20,
+    "calle":"",
+    "altura":"",
+    "provincia":"",
+    "localidad": "",
+    "postal":"",
     "role":"visitante"
 },
   {
@@ -131,7 +215,13 @@
     "apellido": "Alonso",
     "email": "daniela@gmail.com",
     "password": "kgjg789",
-    "imgUser": [],
+    "imgUser": "",
+    "edad":"",
+    "calle":"",
+    "altura":"",
+    "provincia":"",
+    "localidad": "",
+    "postal":"",
     "role":"visitante"
 },
   {
@@ -141,6 +231,12 @@
     "email": "juanruis222@gmail.com",
     "password": "$2a$10$jZG7JG2g9z.JzIeL7BHcMOFPWHfOyNfWZOy/DWUUps9m5H3GckbSu",
     "imgUser": "1705369425065_img-users.jpg",
+    "edad":"",
+    "calle":"",
+    "altura":"",
+    "provincia":"",
+    "localidad": "",
+    "postal":"",
     "role":"visitante"
 },
   {
@@ -150,6 +246,12 @@
     "email": "juarezbenito@gmail.com",
     "password": "$2a$10$Oj3SN36PrLGVnvUjI3RJceVR6YEHsKzwReON2ZKB4VRwfLFJkN1je",
     "imgUser": "1705427191852_img-users.jpg",
+    "edad":"",
+    "calle":"",
+    "altura":"",
+    "provincia":"",
+    "localidad": "",
+    "postal":"",
     "role":"visitante"
 }
 ]

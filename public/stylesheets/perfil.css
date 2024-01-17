@@ -3,10 +3,11 @@
 }
 .main__perfil h3 {
     text-align: center;
+    margin: 15px 0px;
 }
-/* .section__perfil__foto {
-    border: solid 2px red;
-} */
+.section__perfil__foto h2{
+    text-align: center;
+}
 .article__foto {
     width: 80%;
     display: flex;
@@ -121,14 +122,18 @@
     .section__perfil__foto {
         width: 100%;
     }
+    .section__perfil__foto h2{
+        margin: 20px 0;
+    }
     .article__foto {
         margin: 0px auto;
     }
     .form__box {
-        margin: 5px 20px;
+        margin: 7px 20px;
     }
     .section__perfil__datos {
-        margin: 0px 20px;
+        /* margin: 0px 20px; */
+        margin-right: 40px;
     }
     .section__perfil__datos--personal {
         margin-bottom: 15px;
