@@ -7,7 +7,7 @@ var router = express.Router();
 router.get('/login',login)
       .get('/register',register)
       .get('/perfil/:id',perfil)
-      .put('/actualizar/:id',updatePerfil)
+      .put('/actualizar/:id',uploadUaer.single('img-user'),updatePerfil)
       .post('/register',uploadUaer.single('img-users'),usuarioAdd)
 
 module.exports = router;
