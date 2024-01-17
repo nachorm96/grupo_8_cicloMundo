@@ -30,5 +30,8 @@ module.exports = {
         fs.writeFileSync(productsFilePath,JSON.stringify(usuarios),'utf-8')
 
         res.redirect('/users/login');
+    },
+    perfil:(req, res) => {
+        return res.render('users/perfil')
     }
 }

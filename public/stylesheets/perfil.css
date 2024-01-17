@@ -1,0 +1,137 @@
+.main__perfil {
+    margin: 30px 0px;
+}
+.main__perfil h3 {
+    text-align: center;
+}
+.section__perfil__foto {
+    /* border: solid 2px red; */
+    /* width: 50%; */
+}
+.article__foto {
+    width: 80%;
+    display: flex;
+    margin: 20px auto;
+}
+.foto_perfil {
+    width: 100%;
+    align-items: center;
+}
+.section__perfil__datos {
+    /* border: solid 2px red; */
+    margin: 0px auto;
+    /* width: 50%; */
+}
+.section__perfil__datos--personal {
+    border: solid 2px blue;
+}
+
+
+/* .form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin: 5px 50px;
+} */
+
+
+.form__box {
+    /* margin-bottom: 20px;
+    width: 100%; */
+    margin: 30px 20px;
+}
+
+/* .form__box--position {
+    position: relative;
+} 
+
+.form__box--position span {
+    position: absolute;
+    right: 10px;
+    top:20px;
+    cursor: pointer;
+    color: var(--colorGris);
+}  */
+
+.form__label {
+    margin-bottom: 20px;
+}
+
+.form__input{
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #c0c0c0;
+    margin-top: 10px;
+}
+
+.form__msg-error {
+    color: red;
+    margin-left: 5px;
+}
+
+.form__box--row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    row-gap: 8px;
+}
+
+/* .form__box--row h4 {
+    width: 100%;
+}
+
+.form__box--col50 {
+    width: 100%;
+    margin-bottom: 20px;
+} */
+
+.box__end {
+    width: 100%;
+    margin-top: 15px;
+}
+.perfil__button {
+    background-color: green;
+    color: beige;
+    width: 20%;
+    height: 40px;
+    border-radius: 5px;
+    /* font-size: revert; */
+    margin: 10px 40%;
+}
+
+/* tablet */
+
+@media (min-width:768px) {
+    .section__perfil__datos--personal {
+        border: solid 2px blue;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .form__box {
+        width: 44%;
+    }
+}
+
+/* destok */
+
+@media (min-width:1024px){
+    .form {
+        display: flex;
+    }
+    .section__perfil__foto {
+        width: 100%;
+    }
+    .article__foto {
+        margin: 0px auto;
+    }
+    .form__box {
+        margin: 5px 20px;
+    }
+    .section__perfil__datos {
+        margin: 0px 20px;
+    }
+    .section__perfil__datos--personal {
+        margin-bottom: 15px;
+    }
+}
