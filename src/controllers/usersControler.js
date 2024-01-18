@@ -42,7 +42,7 @@ module.exports = {
     },
     updatePerfil :(req, res) =>{
         const usuarios = JSON.parse(fs.readFileSync(usuariosFilePath, 'utf-8'));
-        const {nombre, apellido, email, password, edad, calle, altura, provincia, localidad, postal, imgUser} = req.body;
+        const {nombre, apellido, email, password, edad, calle, altura, provincia, localidad, postal, rol, imgUser} = req.body;
 
         existsSync('public/images/usuarios' +imgUser) && unlinkSync('public/images/usuarios' +imgUser)
 
@@ -58,6 +58,7 @@ module.exports = {
                 user.provincia = provincia;
                 user.localidad = localidad;
                 user.postal = postal;
+                user.rol = "visitante";
                 user.imgUser = req.file ? req.file.filename : user.imgUser;
             }
             return user;
