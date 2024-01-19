@@ -66,6 +66,12 @@ input[type="checkbox"]{
     border: none;
     margin-bottom: 10px;
 }
+.error__login {
+    color: red;
+}
+.error__login--email {
+    padding-left: 50px;
+}
 @media (min-width:768px){
     .section__login {
         width: 50%;

@@ -1,7 +1,8 @@
-const {existsSync, unlinkSync} = require('fs')
+const {existsSync, unlinkSync, readFileSync} = require('fs')
 const fs = require('fs');
 const path = require('path');
 const bcryptjs = require('bcryptjs')
+const {validationResult} = require('express-validator');
 
 const usuariosFilePath = path.join(__dirname, '../data/usuarios.json');
 
@@ -9,6 +10,29 @@ const usuariosFilePath = path.join(__dirname, '../data/usuarios.json');
 module.exports = {
     login : (req,res)=> {
         return res.render('users/login')
+    },
+    processLogin : (req,res) => {
+        const errors = validationResult(req);
+        const {email} = req.body;
+
+        if(errors.isEmpty()){
+            const users = JSON.parse(readFileSync(usuariosFilePath, 'utf-8'));
+            const {id, nombre, rol} = users.find(user => user.email === email)
+
+            req.session.userLogin = {
+                id,
+                nombre,
+                rol
+            }
+
+            console.log(req.session.userLogin);
+            return res.redirect('/')
+
+        }else{
+            return res.render('users/login', {
+                errors : errors.mapped()
+            })
+        }
     },
     register : (req,res)=> {
         return res.render('users/register')
@@ -66,5 +90,10 @@ module.exports = {
         fs.writeFileSync(usuariosFilePath,JSON.stringify(userPerfil),'utf-8')
 
 		return res.redirect("/");
+    },
+    logout : (req, res) => {
+        req.session.destroy();
+
+        return res.redirect('/');
     }
 }
