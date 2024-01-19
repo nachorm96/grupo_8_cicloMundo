@@ -13,6 +13,29 @@ module.exports = {
     register : (req,res)=> {
         return res.render('users/register')
     },
+    processRegister : (req,res) => {
+        const errors = validationResult(req);
+        const {name, surname, email, password} = req.body;
+
+        if(errors.isEmpty()){
+
+            const users = leerJSON('usuarios');
+            const newUser = new User(name, surname, email, password);
+            users.push(newUser);
+
+            escribirJSON(users, 'users')
+
+            return res.redirect('/users/login')
+            
+
+        }else{
+            return res.render('users/register',{
+                old : req.body,
+                errors : errors.mapped()
+            })
+        }
+
+    },
     usuarioAdd : (req, res)=> {
         const usuarios = JSON.parse(fs.readFileSync(usuariosFilePath, 'utf-8'));
         const lastID = usuarios[usuarios.length - 1].id;
