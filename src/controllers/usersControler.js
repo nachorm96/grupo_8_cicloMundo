@@ -40,7 +40,7 @@ module.exports = {
     usuarioAdd : (req, res)=> {
         const usuarios = JSON.parse(fs.readFileSync(usuariosFilePath, 'utf-8'));
         const lastID = usuarios[usuarios.length - 1].id;
-		const {nombre, apellido, email, password,imgUser} = req.body;
+		const {nombre, apellido, email, password, edad, calle, altura, provincia, localidad, postal, rol, imgUser} = req.body;
 
         const nuevoUsuario = {
             id : lastID + 1,
@@ -48,6 +48,13 @@ module.exports = {
             apellido : apellido,
             email : email,
             password : bcryptjs.hashSync(password.trim(),10),
+            edad : "",
+            calle : "",
+            altura : "",
+            provincia : "",
+            localidad : "",
+            postal : "",
+            rol : "visitante",
             imgUser : req.file ? req.file.filename : null
         }
         usuarios.push(nuevoUsuario);
