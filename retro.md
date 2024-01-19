@@ -16,3 +16,10 @@ llegamos a la conclusion que debemos dejar de escribirlos por privado  y empezar
 - **Continuar haciendo:**  dividir las tareas de manera equitativa, ayudar si un compañero lo necesita.
 - **Hacer menos:** empezar las tareas tarde, estar varios días sin comunicación.
 - **dejar de hacer:** subir los cambios el día de la entrega a último momento(tratar de terminar un día antes).
+
+### Retrospectiva Sprint 4
+- **Comenzar a hacer:** Reunión grupal para subir los cambios antes de entregar el sprint.
+- **Hacer más:** dailys, comunicación sobre el avance de las tareas.
+- **Continuar haciendo:** crear el tablero apenas empiece el sprint, dividir las tareas de manera equitativa, ayudar si un compañero lo necesita.
+- **Hacer menos:** perder comunicación, especular con el tiempo.
+- **dejar de hacer:** subir los cambios el día de la entrega a último momento(tratar de terminar un día antes).
