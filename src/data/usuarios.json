@@ -253,5 +253,21 @@
     "localidad": "",
     "postal": "",
     "rol": "visitante"
+  },
+  {
+    
+    "id": 21,
+    "nombre": "lucas",
+    "apellido": "gerez",
+    "email": "joseruis222@gmail.com",
+    "password": "$2a$10$Gh6Q1FCSqFIZVzG7T2LY5eL08JPqerbf01lTeBRxtXJjXgzOtQgsS",
+    "edad": "22",
+    "calle": "",
+    "altura": "",
+    "provincia": "",
+    "localidad": "",
+    "postal": "",
+    "rol": "visitante",
+    "imgUser": null
   }
 ]
