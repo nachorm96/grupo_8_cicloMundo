@@ -255,13 +255,27 @@
     "rol": "visitante"
   },
   {
-    
-    "id": 21,
+    "id": 18,
     "nombre": "lucas",
     "apellido": "gerez",
     "email": "joseruis222@gmail.com",
     "password": "$2a$10$Gh6Q1FCSqFIZVzG7T2LY5eL08JPqerbf01lTeBRxtXJjXgzOtQgsS",
     "edad": "22",
+    "calle": "",
+    "altura": "",
+    "provincia": "",
+    "localidad": "",
+    "postal": "",
+    "rol": "visitante",
+    "imgUser": null
+  },
+  {
+    "id": 19,
+    "nombre": "juan",
+    "apellido": "Perez",
+    "email": "dcsuchis@gmail.com",
+    "password": "$2a$10$Dk.bk6NWXvaGdowvTgTLtea1OEo0c.EyG5NWI/GTKwNgZNVhVAInu",
+    "edad": "23",
     "calle": "",
     "altura": "",
     "provincia": "",
