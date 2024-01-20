@@ -13,7 +13,7 @@ module.exports = {
     },
     processLogin : (req,res) => {
         const errors = validationResult(req);
-        const {email} = req.body;
+        const {email, remember} = req.body;
 
         if(errors.isEmpty()){
             const users = JSON.parse(readFileSync(usuariosFilePath, 'utf-8'));
@@ -24,7 +24,9 @@ module.exports = {
                 nombre,
                 rol
             }
-
+            remember && res.cookie('cicloMundo_user',req.session.userLogin,{
+                maxAge : 1000 * 60 * 2
+            })
             console.log(req.session.userLogin);
             return res.redirect('/')
 
