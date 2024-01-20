@@ -38,30 +38,35 @@ module.exports = {
         return res.render('users/register')
     },
     usuarioAdd : (req, res)=> {
+        const errors = validationResult(req);
         const usuarios = JSON.parse(fs.readFileSync(usuariosFilePath, 'utf-8'));
         const lastID = usuarios[usuarios.length - 1].id;
 		const {nombre, apellido, email, password, edad, calle, altura, provincia, localidad, postal, rol, imgUser} = req.body;
-
-        const nuevoUsuario = {
-            id : lastID + 1,
-            nombre : nombre,
-            apellido : apellido,
-            email : email,
-            password : bcryptjs.hashSync(password.trim(),10),
-            edad : "",
-            calle : "",
-            altura : "",
-            provincia : "",
-            localidad : "",
-            postal : "",
-            rol : "visitante",
-            imgUser : req.file ? req.file.filename : null
+        if(errors.isEmpty()){
+            const nuevoUsuario = {
+                id : lastID + 1,
+                nombre : nombre,
+                apellido : apellido,
+                email : email,
+                password : bcryptjs.hashSync(password.trim(),10),
+                edad : "",
+                calle : "",
+                altura : "",
+                provincia : "",
+                localidad : "",
+                postal : "",
+                rol : "visitante",
+                imgUser : req.file ? req.file.filename : null
+            }
+                usuarios.push(nuevoUsuario);
+                fs.writeFileSync(usuariosFilePath,JSON.stringify(usuarios),'utf-8')
+                res.redirect('/users/login')
+        }else{
+            return res.render('users/register',{
+                old : req.body,
+                errors : errors.mapped()
+            })
         }
-        usuarios.push(nuevoUsuario);
-
-        fs.writeFileSync(usuariosFilePath,JSON.stringify(usuarios),'utf-8')
-
-        res.redirect('/users/login');
     },
     perfil:(req, res) => {
         const usuarios = JSON.parse(fs.readFileSync(usuariosFilePath, 'utf-8'));
