@@ -43,7 +43,7 @@
                 <a href="">Medios de pago</a>
                 <a href="">Contacto</a>
                 <% if (locals.userLogin) { %>
-                 <a href="/users/perfil">Perfil</a>
+                 <a href="/users/perfil/<%= locals.userLogin.id %>">Perfil</a>
                  <a href="/admin">Dashboard</a>
                  <a href="/users/salir">Salir</a>
                 <% }else{%>
