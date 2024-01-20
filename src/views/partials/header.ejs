@@ -43,17 +43,18 @@
                 <a href="">Medios de pago</a>
                 <a href="">Contacto</a>
                 <% if (locals.userLogin) { %>
-                 <a href="/users/perfil/<%= locals.userLogin.id %>">Perfil</a>
-                 <a href="/admin">Dashboard</a>
-                 <a href="/users/salir">Salir</a>
+                    <% if (userLogin.rol === "admin") { %>
+                        <a href="/admin">Dashboard</a>
+                    <% } %>
+                        <a href="/users/perfil/<%= locals.userLogin.id %>">Perfil</a>
+                        <a href="/users/salir">Salir</a>
                 <% }else{%>
-                
-            </span>
-        </div>
-        <div class="login_register">
-            <span>
-                <a href="/users/login">Ingresa</a>
-                <a href="/users/register">Registrate</a>
+                    </span>
+                    </div>
+                    <div class="login_register">
+                    <span>
+                    <a href="/users/login">Ingresa</a>
+                    <a href="/users/register">Registrate</a>
                 <% } %>
                 
             </span>

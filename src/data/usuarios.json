@@ -311,7 +311,7 @@
     "provincia": "",
     "localidad": "",
     "postal": "",
-    "rol": "visitante",
+    "rol": "admin",
     "imgUser": null
   }
 ]

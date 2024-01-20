@@ -77,31 +77,38 @@ module.exports = {
         })
     },
     updatePerfil :(req, res) =>{
+        const errors = validationResult(req);
         const usuarios = JSON.parse(fs.readFileSync(usuariosFilePath, 'utf-8'));
         const {nombre, apellido, email, password, edad, calle, altura, provincia, localidad, postal, rol, imgUser} = req.body;
 
         existsSync('public/images/usuarios' +imgUser) && unlinkSync('public/images/usuarios' +imgUser)
-
-        const userPerfil = usuarios.map(user =>{
-            if(user.id === +req.params.id){
-                user.nombre = nombre;
-                user.apellido = apellido;
-                user.email = email;
-                user.password = password;
-                user.edad = edad;
-                user.calle = calle;
-                user.altura = altura;
-                user.provincia = provincia;
-                user.localidad = localidad;
-                user.postal = postal;
-                user.rol = "visitante";
-                user.imgUser = req.file ? req.file.filename : user.imgUser;
-            }
-            return user;
-        })
-        fs.writeFileSync(usuariosFilePath,JSON.stringify(userPerfil),'utf-8')
-
-		return res.redirect("/");
+        if(errors.isEmpty()){
+            const userPerfil = usuarios.map(user =>{
+                if(user.id === +req.params.id){
+                    user.nombre = nombre;
+                    user.apellido = apellido;
+                    user.email = email;
+                    user.password = password;
+                    user.edad = edad;
+                    user.calle = calle;
+                    user.altura = altura;
+                    user.provincia = provincia;
+                    user.localidad = localidad;
+                    user.postal = postal;
+                    user.rol = "visitante";
+                    user.imgUser = req.file ? req.file.filename : user.imgUser;
+                }
+                return user;
+            })
+            fs.writeFileSync(usuariosFilePath,JSON.stringify(userPerfil),'utf-8')
+            return res.redirect(`/users/perfil/${req.params.id}`);
+            // return res.redirect("user/perfil");
+        }else{
+            return res.render(`/users/perfil/${req.params.id}`,{
+                old : req.body,
+                errors : errors.mapped()
+            })
+        }
     },
     logout : (req, res) => {
         req.session.destroy();
