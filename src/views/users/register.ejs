@@ -32,8 +32,12 @@
                         </div>
                         <div class="register__form__box">
                             <label class="register__form__box__label" for="email">Email</label>
-                            <input class="register__form__box__input" type="email" id="email" name="email"
-                                placeholder="correo@correo">
+                            <input type="email" name="email"
+                                class="register__form__box__input <%= locals.errors && errors.email ? 'is-invalid' : null %>" id="email"
+                                placeholder="name@example.com" value="<%= locals.old && old.email ? old.email : null %>" />
+                            <small class="text-danger ms-2">
+                                <%= locals.errors && errors.email ? errors.email.msg : null %>
+                            </small>
                         </div>
                         <div class="register__form__box">
                             <label class="register__form__box__label" for="password">Contraseña</label>

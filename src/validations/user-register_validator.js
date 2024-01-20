@@ -19,7 +19,16 @@ module.exports = [
         .isAlpha('es-ES',{ignore: ' '}).withMessage('Solo caracteres alfabéticos'),
     body("email")
         .notEmpty().withMessage('El email es obligatorio').bail()
-        .isEmail().withMessage('El email tiene un formato inválido').bail(),
+        .isEmail().withMessage('El email tiene un formato inválido').bail()
+        .custom((value, {req}) => {
+            const users = JSON.parse(readFileSync(usuariosFilePath, 'utf-8'));
+            const user = users.find(user => user.email === value.trim())
+
+            if(user) {
+                return false
+            }
+            return true
+        }).withMessage("El email ya se encuentra regisrado"),
     check("password")
         .notEmpty().withMessage("La contraseña es obligatoria")
         .isLength({
